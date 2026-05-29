@@ -56,7 +56,7 @@ products_body = (
     '  <p><strong>Lite version (free)</strong>: Preview the structure, checklists, and prompts on GitHub. Good for understanding the approach.</p>'
     '  <p><strong>Pro version v1.2 (49 CNY)</strong>: Full package with 61 Codex prompt templates, 42 common error fixes, 8 workflow YAML templates, 8 real-world examples, quality control checklist, source attribution, and more.</p>'
     '  <p><a href="codex-automation-starter-kit/">View product details</a></p>'
-    '  <p class="disclaimer"><small>Ko-fi coming later. Available after Afdian listing.</small></p>'
+    '  <p class="disclaimer"><small>Ko-fi: Not listed yet.</small></p>'
     '</div>'
     '<div class="card">'
     '  <h3>AI Tools Pricing Sheet <span class="status coming">Coming soon</span></h3>'
