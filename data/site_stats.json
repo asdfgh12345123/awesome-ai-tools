@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-29T11:23:54Z",
-  "page_count": 39,
+  "generated_at": "2026-05-29T13:06:54Z",
+  "page_count": 40,
   "tool_count": 10,
   "prompt_count": 5,
   "model_count": 5,
   "agent_count": 6,
   "rag_tool_count": 6,
-  "sitemap_url_count": 39,
+  "sitemap_url_count": 40,
   "kofi_status": "configured"
 }
