@@ -15,6 +15,8 @@ print('Building site from data files...')
 os.makedirs(os.path.join(OUTPUT_DIR, 'tools'), exist_ok=True)
 os.makedirs(os.path.join(OUTPUT_DIR, 'prompts'), exist_ok=True)
 
+support = '<div class="support" style="margin-top:24px;background:#1e293b;border:1px solid #334155;border-radius:12px;padding:16px"><p style="margin-bottom:8px">If this saved you time, consider supporting the project:</p><p><a href="https://ko-fi.com/aitoolshub">Support on Ko-fi</a> · <a href="https://ifdian.net/a/aitoolshub">支持爱发电</a></p></div>'
+
 html = []
 html.append('<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">')
 html.append('<title>AI Tools Directory - Generated Data Page</title>')
@@ -31,6 +33,7 @@ for cat_id, cat_info in categories.items():
     for t in cat_tools:
         html.append(f'<li><a href="{t["url"]}">{t["name"]} — {t.get("pricing","Unknown")}</a><br><span>{t.get("description","")}</span></li>')
     html.append('</ul>')
+html.append(support)
 html.append('</body></html>')
 
 tools_path = os.path.join(OUTPUT_DIR, 'tools', 'generated.html')
@@ -53,6 +56,7 @@ for cat, items in by_cat.items():
     html2.append(f'<h2>{cat.title()}</h2>')
     for p in items:
         html2.append(f'<h3>{p.get("title","Untitled")}</h3><pre>{p.get("prompt","")}</pre>')
+html2.append(support)
 html2.append('</body></html>')
 
 prompts_path = os.path.join(OUTPUT_DIR, 'prompts', 'generated.html')

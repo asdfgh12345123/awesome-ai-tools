@@ -5,7 +5,6 @@ from datetime import datetime
 DATA_DIR = 'data'
 GUIDES_DIR = 'guides'
 USERNAME = 'asdfgh12345123'
-KOFI = 'aitoolshub'
 BASE_URL = f'https://{USERNAME}.github.io/awesome-ai-tools'
 
 def load_json(filename):
@@ -23,8 +22,9 @@ os.makedirs(GUIDES_DIR, exist_ok=True)
 
 def render(title, description, keywords, slug, h1, intro, body):
     nav = '<nav><a href="../">Home</a> <a href="../tools/">Tools</a> <a href="../prompts/">Prompts</a> <a href="../compare/">Compare</a></nav>'
-    faq = '<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is this list regularly updated?","acceptedAnswer":{"@type":"Answer","text":"Yes. We review entries periodically and update pricing labels using Free, Freemium, Paid, or Unknown when exact pricing cannot be confirmed."}},{"@type":"Question","name":"Is this project free to use?","acceptedAnswer":{"@type":"Answer","text":"Yes. The directory, guides, and prompt resources are free to use, and optional support is available through Ko-fi."}}]}</script>'
-    return f'''<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>{title}</title><meta name="description" content="{description}"><meta name="keywords" content="{keywords}"><link rel="canonical" href="{BASE_URL}/guides/{slug}.html"><meta property="og:title" content="{title}"><meta property="og:description" content="{description}"><meta property="og:type" content="article">{faq}<style>body{{font-family:system-ui,sans-serif;background:#0f172a;color:#e2e8f0;padding:24px}}a{{color:#818cf8}}table{{width:100%;border-collapse:collapse}}th,td{{padding:8px;border-bottom:1px solid #334155;text-align:left}}.wrap{{max-width:900px;margin:0 auto}}.cta{{background:#1e293b;border:1px solid #334155;border-radius:12px;padding:16px;margin-top:24px}}ul{{margin-left:18px}}h1{{color:#818cf8}}</style></head><body><div class="wrap">{nav}<h1>{h1}</h1><p>{intro}</p>{body}<div class="cta"><p>If this saved you time, consider <a href="https://ko-fi.com/{KOFI}">supporting the project</a>.</p></div></div></body></html>'''
+    faq = '<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is this list regularly updated?","acceptedAnswer":{"@type":"Answer","text":"Yes. We review entries periodically and update pricing labels using Free, Freemium, Paid, or Unknown when exact pricing cannot be confirmed."}},{"@type":"Question","name":"Is this project free to use?","acceptedAnswer":{"@type":"Answer","text":"Yes. The directory, guides, and prompt resources are free to use, and optional support is available through Ko-fi and Afdian."}}]}</script>'
+    cta = '<div class="cta"><p>If this saved you time, consider supporting the project: <a href="https://ko-fi.com/aitoolshub">Ko-fi</a> or <a href="https://ifdian.net/a/aitoolshub">爱发电</a>.</p></div>'
+    return f'''<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>{title}</title><meta name="description" content="{description}"><meta name="keywords" content="{keywords}"><link rel="canonical" href="{BASE_URL}/guides/{slug}.html"><meta property="og:title" content="{title}"><meta property="og:description" content="{description}"><meta property="og:type" content="article">{faq}<style>body{{font-family:system-ui,sans-serif;background:#0f172a;color:#e2e8f0;padding:24px}}a{{color:#818cf8}}table{{width:100%;border-collapse:collapse}}th,td{{padding:8px;border-bottom:1px solid #334155;text-align:left}}.wrap{{max-width:900px;margin:0 auto}}.cta{{background:#1e293b;border:1px solid #334155;border-radius:12px;padding:16px;margin-top:24px}}ul{{margin-left:18px}}h1{{color:#818cf8}}</style></head><body><div class="wrap">{nav}<h1>{h1}</h1><p>{intro}</p>{body}{cta}</div></body></html>'''
 
 guide_pages = []
 
