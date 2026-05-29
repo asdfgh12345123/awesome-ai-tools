@@ -1,0 +1,13 @@
+name: Ko-fi Webhook
+
+on:
+  repository_dispatch:
+    types: [kofi-webhook]
+
+jobs:
+  handle-donation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Process donation
+        run: |
+          echo "New donation from ${{ github.event.client_payload.from_name }}"
