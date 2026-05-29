@@ -47,6 +47,11 @@ AI Tools Hub is free to use. Sponsorship helps maintain the directory, update li
 
 AI Tools Hub 是我维护的免费 AI 工具与提示词资源项目，爱发电主页用于接收国内用户对项目维护的赞助支持。
 
+## Related repositories
+
+- Awesome AI Agents: https://github.com/asdfgh12345123/awesome-ai-agents
+- Awesome RAG: https://github.com/asdfgh12345123/awesome-rag
+
 ## How to contribute
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
