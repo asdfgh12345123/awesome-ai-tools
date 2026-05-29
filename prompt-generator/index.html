@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Prompt Generator - Create Perfect Prompts for ChatGPT, Claude & More</title>
+    <meta name="description" content="Free AI prompt generator. Create optimized prompts for ChatGPT, Claude, Gemini, and other AI assistants. Copy-paste ready.">
+    <meta name="keywords" content="AI prompt generator, ChatGPT prompts, Claude prompts, AI prompt engineering, prompt templates">
+    <meta property="og:title" content="AI Prompt Generator - Create Perfect Prompts">
+    <meta property="og:description" content="Free tool to generate optimized prompts for any AI assistant.">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://asdfgh12345123.github.io/awesome-ai-tools/awesome-ai-tools/prompt-generator/">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "AI Prompt Generator",
+        "url": "https://asdfgh12345123.github.io/awesome-ai-tools/awesome-ai-tools/prompt-generator/",
+        "description": "Free AI prompt generator for ChatGPT, Claude, and more.",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "Web",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            min-height: 100vh;
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+        
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            border-bottom: 2px solid #4f46e5;
+        }
+        header h1 { font-size: 2.5rem; color: #818cf8; }
+        header p { color: #94a3b8; margin-top: 10px; }
+        
+        .generator {
+            background: #1e293b;
+            border-radius: 12px;
+            padding: 30px;
+            margin: 30px 0;
+            border: 1px solid #334155;
+        }
+        
+        label { 
+            display: block; 
+            margin-bottom: 8px; 
+            color: #818cf8;
+            font-weight: 600;
+        }
+        
+        select, textarea, input {
+            width: 100%;
+            padding: 12px;
+            background: #0f172a;
+            border: 1px solid #334155;
+            border-radius: 8px;
+            color: #e2e8f0;
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+        select:focus, textarea:focus, input:focus {
+            outline: none;
+            border-color: #4f46e5;
+        }
+        
+        textarea { min-height: 100px; resize: vertical; }
+        
+        .btn {
+            display: inline-block;
+            padding: 14px 28px;
+            background: #4f46e5;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .btn:hover { background: #4338ca; transform: translateY(-2px); }
+        
+        .output {
+            background: #0f172a;
+            border: 1px solid #334155;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            min-height: 150px;
+            white-space: pre-wrap;
+            font-family: 'Fira Code', monospace;
+            position: relative;
+        }
+        
+        .copy-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #10b981;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+        .copy-btn:hover { background: #059669; }
+        
+        .templates {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 30px 0;
+        }
+        
+        .template {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 8px;
+            padding: 15px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .template:hover { 
+            border-color: #4f46e5; 
+            transform: translateY(-3px);
+        }
+        .template h3 { color: #818cf8; font-size: 1rem; margin-bottom: 5px; }
+        .template p { color: #94a3b8; font-size: 0.9rem; }
+        
+        .sponsor {
+            text-align: center;
+            padding: 40px;
+            margin: 30px 0;
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            border-radius: 12px;
+        }
+        .sponsor h2 { color: white; margin-bottom: 10px; }
+        .sponsor p { color: #e0e7ff; margin-bottom: 20px; }
+        .sponsor .btn { background: white; color: #4f46e5; }
+        
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #64748b;
+        }
+        footer a { color: #818cf8; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AI Prompt Generator</h1>
+        <p>Create perfect prompts for ChatGPT, Claude, Gemini, and more</p>
+    </header>
+    
+    <div class="container">
+        <h2 style="color: #818cf8; margin: 20px 0;">Quick Templates</h2>
+        <div class="templates">
+            <div class="template" onclick="loadTemplate('coding')">
+                <h3>Coding Assistant</h3>
+                <p>Generate code, debug, refactor</p>
+            </div>
+            <div class="template" onclick="loadTemplate('writing')">
+                <h3>Content Writer</h3>
+                <p>Blog posts, articles, copy</p>
+            </div>
+            <div class="template" onclick="loadTemplate('analysis')">
+                <h3>Data Analysis</h3>
+                <p>Analyze data, find insights</p>
+            </div>
+            <div class="template" onclick="loadTemplate('creative')">
+                <h3>Creative Writing</h3>
+                <p>Stories, poems, scripts</p>
+            </div>
+            <div class="template" onclick="loadTemplate('business')">
+                <h3>Business</h3>
+                <p>Strategy, marketing, plans</p>
+            </div>
+            <div class="template" onclick="loadTemplate('research')">
+                <h3>Research</h3>
+                <p>Papers, summaries, analysis</p>
+            </div>
+        </div>
+        
+        <div class="generator">
+            <label for="role">AI Role</label>
+            <input type="text" id="role" placeholder="e.g., Expert Python developer, Marketing strategist...">
+            
+            <label for="task">Task Description</label>
+            <textarea id="task" placeholder="Describe what you want the AI to do..."></textarea>
+            
+            <label for="format">Output Format</label>
+            <select id="format">
+                <option value="detailed">Detailed response</option>
+                <option value="concise">Concise summary</option>
+                <option value="steps">Step-by-step guide</option>
+                <option value="code">Code with comments</option>
+                <option value="table">Table format</option>
+                <option value="bullet">Bullet points</option>
+            </select>
+            
+            <label for="constraints">Constraints (optional)</label>
+            <input type="text" id="constraints" placeholder="e.g., Keep it under 500 words, use simple language...">
+            
+            <button class="btn" onclick="generatePrompt()">Generate Prompt</button>
+            
+            <div class="output" id="output">
+                <button class="copy-btn" onclick="copyPrompt()">Copy</button>
+                <span id="prompt-text">Your optimized prompt will appear here...</span>
+            </div>
+        </div>
+        
+        <div class="sponsor">
+            <h2>Support This Tool</h2>
+            <p>If this prompt generator helps you, consider sponsoring to keep it free!</p>
+            <a href="https://github.com/sponsors/asdfgh12345123" class="btn">Sponsor Me</a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Built by <a href="https://github.com/asdfgh12345123">asdfgh12345123</a> | 
+        <a href="https://github.com/asdfgh12345123/awesome-ai-tools">Awesome AI Tools</a></p>
+    </footer>
+    
+    <script>
+        const templates = {
+            coding: {
+                role: "Expert software engineer",
+                task: "Write clean, efficient, well-documented code. Follow best practices and design patterns.",
+                format: "code",
+                constraints: "Include comments explaining the logic"
+            },
+            writing: {
+                role: "Professional content writer and SEO expert",
+                task: "Write engaging, well-structured content that is optimized for search engines.",
+                format: "detailed",
+                constraints: "Use active voice, short paragraphs, and compelling headlines"
+            },
+            analysis: {
+                role: "Senior data analyst",
+                task: "Analyze the data and provide actionable insights with clear visualizations.",
+                format: "steps",
+                constraints: "Include statistical significance and confidence intervals"
+            },
+            creative: {
+                role: "Creative writing expert",
+                task: "Write compelling, original creative content with vivid descriptions.",
+                format: "detailed",
+                constraints: "Use literary devices and maintain consistent tone"
+            },
+            business: {
+                role: "Business strategy consultant",
+                task: "Provide strategic business recommendations with supporting analysis.",
+                format: "bullet",
+                constraints: "Include market analysis and competitive landscape"
+            },
+            research: {
+                role: "Research analyst and academic writer",
+                task: "Conduct thorough research and provide well-sourced analysis.",
+                format: "detailed",
+                constraints: "Cite sources and use academic writing style"
+            }
+        };
+        
+        function loadTemplate(name) {
+            const t = templates[name];
+            document.getElementById('role').value = t.role;
+            document.getElementById('task').value = t.task;
+            document.getElementById('format').value = t.format;
+            document.getElementById('constraints').value = t.constraints;
+        }
+        
+        function generatePrompt() {
+            const role = document.getElementById('role').value;
+            const task = document.getElementById('task').value;
+            const format = document.getElementById('format').value;
+            const constraints = document.getElementById('constraints').value;
+            
+            if (!task) {
+                alert('Please enter a task description');
+                return;
+            }
+            
+            const formatInstructions = {
+                detailed: "Provide a comprehensive, detailed response.",
+                concise: "Keep your response concise and to the point.",
+                steps: "Provide a step-by-step guide with numbered steps.",
+                code: "Provide code with clear comments explaining each section.",
+                table: "Organize your response in a table format.",
+                bullet: "Use bullet points for clear, scannable content."
+            };
+            
+            let prompt = "";
+            if (role) {
+                prompt += `You are an ${role}.\n\n`;
+            }
+            prompt += `${task}\n\n`;
+            prompt += `Format: ${formatInstructions[format]}\n`;
+            if (constraints) {
+                prompt += `Constraints: ${constraints}\n`;
+            }
+            
+            document.getElementById('prompt-text').textContent = prompt;
+        }
+        
+        function copyPrompt() {
+            const text = document.getElementById('prompt-text').textContent;
+            navigator.clipboard.writeText(text);
+            const btn = document.querySelector('.copy-btn');
+            btn.textContent = 'Copied!';
+            setTimeout(() => btn.textContent = 'Copy', 2000);
+        }
+    </script>
+</body>
+</html>
