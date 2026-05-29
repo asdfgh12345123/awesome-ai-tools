@@ -1,0 +1,57 @@
+﻿{
+  "coding": {
+    "name": "Coding",
+    "description": "AI tools for software development",
+    "icon": "code"
+  },
+  "writing": {
+    "name": "Writing",
+    "description": "AI tools for content creation",
+    "icon": "edit"
+  },
+  "image": {
+    "name": "Image Generation",
+    "description": "AI tools for creating images",
+    "icon": "image"
+  },
+  "video": {
+    "name": "Video Generation",
+    "description": "AI tools for creating videos",
+    "icon": "video"
+  },
+  "audio": {
+    "name": "Audio & Music",
+    "description": "AI tools for audio and music",
+    "icon": "music"
+  },
+  "productivity": {
+    "name": "Productivity",
+    "description": "AI tools for productivity",
+    "icon": "zap"
+  },
+  "research": {
+    "name": "Research",
+    "description": "AI tools for research",
+    "icon": "search"
+  },
+  "design": {
+    "name": "Design",
+    "description": "AI tools for design",
+    "icon": "palette"
+  },
+  "marketing": {
+    "name": "Marketing",
+    "description": "AI tools for marketing",
+    "icon": "trending-up"
+  },
+  "education": {
+    "name": "Education",
+    "description": "AI tools for education",
+    "icon": "book"
+  },
+  "free": {
+    "name": "Free & Open Source",
+    "description": "Free and open-source AI tools",
+    "icon": "github"
+  }
+}

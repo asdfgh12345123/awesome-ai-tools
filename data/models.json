@@ -1,0 +1,57 @@
+﻿[
+  {
+    "name": "GPT-4o",
+    "provider": "OpenAI",
+    "quality": 9.5,
+    "speed": "Fast",
+    "input_price": 5.0,
+    "output_price": 15.0,
+    "free_tier": true,
+    "best_for": "General purpose, coding",
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "Claude 3.5 Sonnet",
+    "provider": "Anthropic",
+    "quality": 9.5,
+    "speed": "Fast",
+    "input_price": 3.0,
+    "output_price": 15.0,
+    "free_tier": true,
+    "best_for": "Writing, analysis, coding",
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "Gemini Pro",
+    "provider": "Google",
+    "quality": 9.0,
+    "speed": "Very Fast",
+    "input_price": 1.25,
+    "output_price": 5.0,
+    "free_tier": true,
+    "best_for": "Search, multimodal",
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "Llama 3 70B",
+    "provider": "Meta",
+    "quality": 8.5,
+    "speed": "Medium",
+    "input_price": 0,
+    "output_price": 0,
+    "free_tier": true,
+    "best_for": "Self-hosted, privacy",
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "DeepSeek V3",
+    "provider": "DeepSeek",
+    "quality": 8.5,
+    "speed": "Medium",
+    "input_price": 0.27,
+    "output_price": 1.10,
+    "free_tier": true,
+    "best_for": "Budget, coding",
+    "last_checked": "2026-05-29"
+  }
+]

@@ -1,0 +1,56 @@
+﻿[
+  {
+    "name": "LlamaIndex",
+    "url": "https://github.com/run-llama/llama_index",
+    "category": "framework",
+    "description": "Data framework for LLM applications",
+    "stars": "30k+",
+    "open_source": true,
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "LangChain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "category": "framework",
+    "description": "Build context-aware LLM applications",
+    "stars": "90k+",
+    "open_source": true,
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "Haystack",
+    "url": "https://github.com/deepset-ai/haystack",
+    "category": "framework",
+    "description": "End-to-end NLP framework",
+    "stars": "15k+",
+    "open_source": true,
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "Chroma",
+    "url": "https://github.com/chroma-core/chroma",
+    "category": "vector-db",
+    "description": "AI-native embedding database",
+    "stars": "10k+",
+    "open_source": true,
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "Qdrant",
+    "url": "https://github.com/qdrant/qdrant",
+    "category": "vector-db",
+    "description": "High-performance vector similarity search",
+    "stars": "15k+",
+    "open_source": true,
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "Weaviate",
+    "url": "https://github.com/weaviate/weaviate",
+    "category": "vector-db",
+    "description": "Vector search engine",
+    "stars": "10k+",
+    "open_source": true,
+    "last_checked": "2026-05-29"
+  }
+]

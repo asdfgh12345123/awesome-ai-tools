@@ -1,0 +1,56 @@
+﻿[
+  {
+    "name": "AutoGen",
+    "url": "https://github.com/microsoft/autogen",
+    "category": "framework",
+    "description": "Multi-agent conversation framework by Microsoft",
+    "stars": "30k+",
+    "open_source": true,
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "CrewAI",
+    "url": "https://github.com/joaomdmoura/crewai",
+    "category": "framework",
+    "description": "Role-playing AI agent orchestration",
+    "stars": "15k+",
+    "open_source": true,
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "LangGraph",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "category": "framework",
+    "description": "Stateful multi-actor LLM applications",
+    "stars": "5k+",
+    "open_source": true,
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "MetaGPT",
+    "url": "https://github.com/geekan/MetaGPT",
+    "category": "framework",
+    "description": "Multi-agent framework for software development",
+    "stars": "40k+",
+    "open_source": true,
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "SWE-agent",
+    "url": "https://github.com/princeton-nlp/SWE-agent",
+    "category": "coding",
+    "description": "Autonomous bug fixing agent",
+    "stars": "5k+",
+    "open_source": true,
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "GPT Researcher",
+    "url": "https://github.com/assafelovic/gpt-researcher",
+    "category": "research",
+    "description": "Autonomous research agent",
+    "stars": "5k+",
+    "open_source": true,
+    "last_checked": "2026-05-29"
+  }
+]

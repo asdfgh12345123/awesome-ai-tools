@@ -1,0 +1,112 @@
+﻿[
+  {
+    "name": "Cursor",
+    "url": "https://www.cursor.sh/",
+    "category": "coding",
+    "pricing": "Free/Pro",
+    "description": "AI-first code editor",
+    "tags": ["coding", "editor", "ai"],
+    "use_cases": ["code completion", "code generation", "refactoring"],
+    "open_source": false,
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "GitHub Copilot",
+    "url": "https://github.com/features/copilot",
+    "category": "coding",
+    "pricing": "Paid",
+    "description": "AI pair programmer",
+    "tags": ["coding", "github", "ai"],
+    "use_cases": ["code completion", "code generation"],
+    "open_source": false,
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "Aider",
+    "url": "https://github.com/paul-gauthier/aider",
+    "category": "coding",
+    "pricing": "Free",
+    "description": "AI pair programming in terminal",
+    "tags": ["coding", "terminal", "open-source"],
+    "use_cases": ["code editing", "refactoring", "terminal coding"],
+    "open_source": true,
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "Continue",
+    "url": "https://continue.dev/",
+    "category": "coding",
+    "pricing": "Free",
+    "description": "Open-source AI code assistant",
+    "tags": ["coding", "open-source", "ide"],
+    "use_cases": ["code completion", "code chat"],
+    "open_source": true,
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "Claude",
+    "url": "https://claude.ai/",
+    "category": "writing",
+    "pricing": "Free/Pro",
+    "description": "Advanced AI assistant",
+    "tags": ["writing", "chat", "analysis"],
+    "use_cases": ["writing", "analysis", "coding"],
+    "open_source": false,
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "ChatGPT",
+    "url": "https://chat.openai.com/",
+    "category": "writing",
+    "pricing": "Free/Pro",
+    "description": "OpenAI chatbot",
+    "tags": ["writing", "chat", "general"],
+    "use_cases": ["writing", "coding", "research"],
+    "open_source": false,
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "Midjourney",
+    "url": "https://www.midjourney.com/",
+    "category": "image",
+    "pricing": "Paid",
+    "description": "AI image generation",
+    "tags": ["image", "art", "generation"],
+    "use_cases": ["image generation", "art creation"],
+    "open_source": false,
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "Stable Diffusion",
+    "url": "https://stability.ai/",
+    "category": "image",
+    "pricing": "Free",
+    "description": "Open-source image generation",
+    "tags": ["image", "open-source", "generation"],
+    "use_cases": ["image generation", "local AI"],
+    "open_source": true,
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "Perplexity",
+    "url": "https://www.perplexity.ai/",
+    "category": "research",
+    "pricing": "Free/Pro",
+    "description": "AI search engine",
+    "tags": ["research", "search", "ai"],
+    "use_cases": ["research", "search", "information retrieval"],
+    "open_source": false,
+    "last_checked": "2026-05-29"
+  },
+  {
+    "name": "Ollama",
+    "url": "https://ollama.ai/",
+    "category": "free",
+    "pricing": "Free",
+    "description": "Run LLMs locally",
+    "tags": ["local", "llm", "open-source"],
+    "use_cases": ["local AI", "privacy", "offline"],
+    "open_source": true,
+    "last_checked": "2026-05-29"
+  }
+]

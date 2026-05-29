@@ -1,0 +1,42 @@
+﻿[
+  {
+    "id": "code-review",
+    "category": "coding",
+    "title": "Code Review",
+    "prompt": "Review this code for bugs, performance issues, and best practices. Suggest specific improvements with code examples.",
+    "use_case": "Code quality improvement",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "debug-error",
+    "category": "coding",
+    "title": "Debug Error",
+    "prompt": "I am getting this error: [paste error]. Here is my code: [paste code]. Explain what is causing the error and provide a fix.",
+    "use_case": "Error resolution",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "blog-post",
+    "category": "writing",
+    "title": "Blog Post",
+    "prompt": "Write a 1500-word blog post about [topic]. Include engaging introduction, 5-7 main points, actionable takeaways, and SEO-friendly structure.",
+    "use_case": "Content creation",
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "email-template",
+    "category": "writing",
+    "title": "Email Template",
+    "prompt": "Write a professional email for [purpose]. Include clear subject line, concise opening, main message, and call to action.",
+    "use_case": "Communication",
+    "difficulty": "beginner"
+  },
+  {
+    "id": "swot-analysis",
+    "category": "business",
+    "title": "SWOT Analysis",
+    "prompt": "Conduct a SWOT analysis for [company/product]. Provide 5 strengths, 5 weaknesses, 5 opportunities, 5 threats, and strategic recommendations.",
+    "use_case": "Business strategy",
+    "difficulty": "advanced"
+  }
+]
