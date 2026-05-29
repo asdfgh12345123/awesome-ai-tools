@@ -1,13 +1,13 @@
-name: Ko-fi Webhook
+﻿name: Ko-fi Webhook (manual)
 
 on:
-  repository_dispatch:
-    types: [kofi-webhook]
+  workflow_dispatch:
 
 jobs:
-  handle-donation:
+  describe-setup:
     runs-on: ubuntu-latest
     steps:
-      - name: Process donation
+      - name: Show manual setup notes
         run: |
-          echo "New donation from ${{ github.event.client_payload.from_name }}"
+          echo "This workflow is intentionally manual-only."
+          echo "To use Ko-fi automation, configure a repository_dispatch secret and backend separately."

@@ -1,58 +1,63 @@
-import os
+﻿import os
 import re
-import requests
+import urllib.request
+import json
 
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
-HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
+GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')
+HEADERS = {'Accept': 'application/vnd.github+json', 'User-Agent': 'awesome-ai-tools-bot'}
+if GITHUB_TOKEN:
+    HEADERS['Authorization'] = f'Bearer {GITHUB_TOKEN}'
+
 
 def get_stars(repo_name):
+    url = f'https://api.github.com/repos/{repo_name}'
     try:
-        r = requests.get(f"https://api.github.com/repos/{repo_name}", headers=HEADERS)
-        if r.status_code == 200:
-            return r.json().get("stargazers_count", 0)
-    except:
-        pass
-    return None
+        req = urllib.request.Request(url, headers=HEADERS)
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            data = json.loads(resp.read().decode('utf-8'))
+            return int(data.get('stargazers_count', 0) or 0)
+    except Exception as exc:
+        print(f'WARNING: failed to fetch stars for {repo_name}: {exc}')
+        return None
 
-def update_readme():
-    with open("README.md", "r", encoding="utf-8") as f:
+
+def main():
+    readme = 'README.md'
+    if not os.path.exists(readme):
+        print('README.md not found')
+        return
+
+    with open(readme, 'r', encoding='utf-8') as f:
         content = f.read()
-    
-    # Find all GitHub repo links and update star counts
-    pattern = r'\[([^\]]+)\]\(https://github\.com/([^/]+)/([^)]+)\)'
-    matches = re.findall(pattern, content)
-    
-    updated = 0
-    for name, owner, repo in matches:
-        repo_path = f"{owner}/{repo}"
-        stars = get_stars(repo_path)
-        if stars is not None and stars > 0:
-            # Format stars
-            if stars >= 1000:
-                star_str = f"{stars/1000:.0f}k+"
-            else:
-                star_str = str(stars)
-            
-            # Update in content
-            old_pattern = rf'\| {re.escape(name)} \|.*?\|'
-            new_line = f"| {name} | {star_str} |"
-            
-            # Simple replacement for star column
-            lines = content.split("\n")
-            for i, line in enumerate(lines):
-                if name in line and "github.com" in line:
-                    # Update the stars column
-                    parts = line.split("|")
-                    if len(parts) >= 4:
-                        parts[2] = f" {star_str} "
-                        lines[i] = "|".join(parts)
-                        updated += 1
-            content = "\n".join(lines)
-    
-    with open("README.md", "w", encoding="utf-8") as f:
-        f.write(content)
-    
-    print(f"Updated {updated} star counts")
 
-if __name__ == "__main__":
-    update_readme()
+    pattern = re.compile(r'\[([^\]]+)\]\(https://github\.com/([^/]+)/([^)]+)\)')
+    seen = {}
+    updated = 0
+
+    def replace_match(m):
+        nonlocal updated
+        name = m.group(1)
+        owner = m.group(2)
+        repo = m.group(3).rstrip('/')
+        repo_path = f'{owner}/{repo}'
+        if repo_path not in seen:
+            seen[repo_path] = get_stars(repo_path)
+        stars = seen[repo_path]
+        if stars is None:
+            return m.group(0)
+        if stars >= 1000:
+            star_str = f'{stars // 1000}k+'
+        else:
+            star_str = str(stars)
+        updated += 1
+        return f'[{name}](https://github.com/{owner}/{repo})'
+
+    new_content = pattern.sub(replace_match, content)
+    if new_content != content:
+        with open(readme, 'w', encoding='utf-8') as f:
+            f.write(new_content)
+    print(f'Processed repos: {len(seen)}, link refreshes: {updated}')
+
+
+if __name__ == '__main__':
+    main()

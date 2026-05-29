@@ -1,0 +1,43 @@
+﻿name: SEO Refresh
+
+on:
+  schedule:
+    - cron: '30 1 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-generated-content:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Regenerate pages and stats
+        run: |
+          python scripts/build_site.py
+          python scripts/generate_guides.py
+          python scripts/update_sitemap.py
+          python scripts/generate_stats.py
+
+      - name: Run link check
+        run: python scripts/check_links.py
+
+      - name: Commit updated assets if changed
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add .
+            git commit -m "chore: refresh generated site data [skip ci]"
+            git push
+          else
+            echo "No changes to commit"
+          fi
