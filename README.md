@@ -1,4 +1,4 @@
-# Awesome AI Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+﻿# Awesome AI Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of AI productivity tools for developers, writers, and creators. 100+ tools.
 
@@ -6,6 +6,13 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/asdfgh12345123/awesome-ai-tools?style=social)](https://github.com/asdfgh12345123/awesome-ai-tools)
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-red)](https://github.com/sponsors/asdfgh12345123)
+
+Support this project:
+- Ko-fi: https://ko-fi.com/aitoolshub
+- 爱发电: https://ifdian.net/a/aitoolshub
+
+AI Tools Hub 是我维护的免费 AI 工具与提示词资源项目，爱发电主页用于接收国内用户对项目维护的赞助支持。
+
 
 ---
 
