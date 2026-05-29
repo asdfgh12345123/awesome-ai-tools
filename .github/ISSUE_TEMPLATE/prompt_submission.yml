@@ -1,0 +1,30 @@
+﻿name: Prompt submission
+description: Submit a useful ChatGPT prompt.
+labels: ["prompt"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Prompt title
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Category
+      placeholder: coding, writing, business, education
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Prompt
+      placeholder: Paste the prompt here
+    validations:
+      required: true
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Best use case
+    validations:
+      required: false

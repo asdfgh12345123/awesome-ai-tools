@@ -1,116 +1,87 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Tools Hub - 200+ Best AI Tools, Agents & Resources (2026)</title>
-    <meta name="description" content="The ultimate AI tools hub. 200+ curated AI tools for coding, writing, image generation, video, and more. Free AI prompt generator, tools directory, and awesome lists.">
-    <meta name="keywords" content="AI tools, best AI tools 2026, AI agents, RAG, ChatGPT, Claude, Midjourney, AI coding, AI writing, free AI tools">
-    <meta property="og:title" content="AI Tools Hub - 200+ Best AI Tools (2026)">
-    <meta property="og:description" content="The ultimate AI tools hub with directory, prompt generator, and curated lists.">
+    <title>AI Tools Hub - Free AI Tools, Prompts, Agents and RAG Resources</title>
+    <meta name="description" content="AI Tools Hub is a free, curated collection of AI tools, ChatGPT prompts, AI agents, RAG resources, and model comparisons, updated weekly.">
+    <meta property="og:title" content="AI Tools Hub - Free AI Tools, Prompts, Agents and RAG Resources">
+    <meta property="og:description" content="Browse curated AI tools, prompts, agents, and RAG resources in one place. Free to use and updated weekly.">
     <meta property="og:type" content="website">
     <link rel="canonical" href="https://asdfgh12345123.github.io/awesome-ai-tools/">
-    
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "AI Tools Hub",
-        "url": "https://asdfgh12345123.github.io/awesome-ai-tools/",
-        "description": "200+ curated AI tools for every task",
-        "author": {"@type": "Person", "name": "asdfgh12345123"}
-    }
-    </script>
-    
     <style>
         :root { --primary: #6366f1; --accent: #10b981; --bg: #0f172a; --card: #1e293b; --text: #e2e8f0; --muted: #94a3b8; --border: #334155; }
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); }
-        .hero { background: linear-gradient(135deg, #1e1b4b, #4338ca); padding: 80px 20px; text-align: center; }
-        .hero h1 { font-size: 3rem; background: linear-gradient(to right, #818cf8, #c084fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .hero p { color: #c7d2fe; font-size: 1.2rem; margin-top: 10px; }
-        .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
-        .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
-        .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 32px; transition: all 0.3s; }
-        .card:hover { transform: translateY(-5px); border-color: var(--primary); box-shadow: 0 12px 40px rgba(99,102,241,0.15); }
-        .card h2 { color: #818cf8; font-size: 1.5rem; margin-bottom: 12px; }
-        .card p { color: var(--muted); margin-bottom: 20px; }
-        .card .btn { display: inline-block; padding: 12px 24px; background: var(--primary); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; }
-        .card .btn:hover { background: #4f46e5; }
-        .card .btn.secondary { background: var(--accent); }
-        .sponsor { background: linear-gradient(135deg, #4f46e5, #7c3aed); border-radius: 16px; padding: 48px; text-align: center; margin: 48px 0; }
-        .sponsor h2 { color: white; font-size: 2rem; }
-        .sponsor p { color: #e0e7ff; margin: 10px 0 24px; }
-        .sponsor .btn { background: white; color: #4f46e5; padding: 14px 32px; }
-        footer { text-align: center; padding: 40px; color: var(--muted); border-top: 1px solid var(--border); }
-        footer a { color: #818cf8; text-decoration: none; }
+        body { font-family: system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        a { color: #818cf8; text-decoration: none; }
+        .hero { background: linear-gradient(135deg, #1e1b4b, #4338ca); padding: 72px 20px; text-align: center; }
+        .hero h1 { font-size: 2.6rem; color: white; margin-bottom: 12px; }
+        .hero p { color: #e0e7ff; max-width: 760px; margin: 0 auto; }
+        .actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 24px; }
+        .btn { display: inline-block; padding: 12px 20px; border-radius: 8px; font-weight: 600; text-decoration: none; }
+        .btn.primary { background: white; color: #312e81; }
+        .btn.secondary { background: rgba(255,255,255,0.12); color: white; border: 1px solid rgba(255,255,255,0.2); }
+        .container { max-width: 1100px; margin: 0 auto; padding: 40px 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 24px; transition: transform 0.2s; }
+        .card:hover { transform: translateY(-4px); }
+        .card h2 { color: #818cf8; margin-bottom: 10px; }
+        .card p { color: var(--muted); margin-bottom: 16px; }
+        .support { background: linear-gradient(135deg, #312e81, #4f46e5); border-radius: 16px; padding: 36px; text-align: center; margin-top: 24px; }
+        .support h2 { color: white; margin-bottom: 10px; }
+        .support p { color: #e0e7ff; margin-bottom: 18px; }
+        .support .actions { margin-top: 0; }
+        footer { text-align: center; padding: 32px; color: var(--muted); border-top: 1px solid var(--border); }
     </style>
 </head>
 <body>
     <div class="hero">
         <h1>AI Tools Hub</h1>
-        <p>200+ curated AI tools, agents, and resources. Updated weekly.</p>
-    </div>
-    
-    <div class="container">
-        <div class="cards">
-            <div class="card">
-                <h2>AI Tools Directory</h2>
-                <p>200+ AI tools for coding, writing, image generation, video, audio, and more. Searchable and filterable.</p>
-                <a href="tools/" class="btn">Browse Tools</a>
-            </div>
-            <div class="card">
-                <h2>AI Prompt Generator</h2>
-                <p>Generate optimized prompts for ChatGPT, Claude, Gemini, and more. Copy-paste ready templates.</p>
-                <a href="prompt-generator/" class="btn">Generate Prompts</a>
-            </div>
-            <div class="card">
-                <h2>Awesome AI Agents</h2>
-                <p>100+ autonomous AI agent frameworks, tools, and resources. Build intelligent agents.</p>
-                <a href="https://github.com/asdfgh12345123/awesome-ai-agents" class="btn secondary">View List</a>
-            </div>
-            <div class="card">
-                <h2>Awesome RAG</h2>
-                <p>100+ RAG tools and best practices. Build production-ready retrieval-augmented generation.</p>
-                <a href="https://github.com/asdfgh12345123/awesome-rag" class="btn secondary">View List</a>
-            </div>
-            <div class="card">
-                <h2>Awesome AI Tools</h2>
-                <p>100+ AI productivity tools. The ultimate curated list for developers and creators.</p>
-                <a href="https://github.com/asdfgh12345123/awesome-ai-tools" class="btn secondary">View List</a>
-            </div>
-            <div class="card">
-                <h2>Revenue Dashboard</h2>
-                <p>Track project progress, revenue streams, and action items.</p>
-                <a href="dashboard/" class="btn">View Dashboard</a>
-            </div>
-        </div>
-        
-        <div style="text-align:center;padding:20px;"><a href="supporters/" style="color:#818cf8;">View Our Supporters</a></div>
-<div class="sponsor">
-            <h2>Support This Project</h2>
-            <p>Help us keep these resources free and updated. Every sponsor helps!</p>
-            <a href="https://ko-fi.com/aitoolshub" class="btn">Buy Me a Coffee</a>
+        <p>A free, curated collection of AI tools, ChatGPT prompts, AI agents, RAG resources, and model comparisons — updated weekly for students, developers, and creators.</p>
+        <div class="actions">
+            <a class="btn primary" href="tools/">Browse AI Tools</a>
+            <a class="btn primary" href="prompts/">Explore ChatGPT Prompts</a>
+            <a class="btn secondary" href="compare/">Compare AI Models</a>
         </div>
     </div>
-    
-    <footer>
-        <p>Built by <a href="https://github.com/asdfgh12345123">asdfgh12345123</a> | 
-        <a href="https://ko-fi.com/aitoolshub">Sponsor</a></p>
-    </footer>
 
-    <div style="max-width: 1200px; margin: 0 auto; padding: 40px 20px;">
-        <h2 style="color: #818cf8; text-align: center; margin-bottom: 20px;">Featured Guides</h2>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
-            <a href="blog/best-ai-tools-2026.html" style="background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 24px; text-decoration: none; color: #e2e8f0;">
-                <h3 style="color: #818cf8;">Best AI Tools 2026</h3>
-                <p style="color: #94a3b8;">Complete guide to 200+ AI tools by category.</p>
-            </a>
-            <a href="blog/free-ai-tools.html" style="background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 24px; text-decoration: none; color: #e2e8f0;">
-                <h3 style="color: #818cf8;">50+ Free AI Tools</h3>
-                <p style="color: #94a3b8;">Best free AI tools, no credit card required.</p>
-            </a>
+    <div class="container">
+        <div class="grid">
+            <div class="card">
+                <h2>AI Tools</h2>
+                <p>Discover curated AI tools for coding, writing, design, productivity, research, and more.</p>
+                <a class="btn primary" href="tools/">Browse AI Tools</a>
+            </div>
+            <div class="card">
+                <h2>ChatGPT Prompts</h2>
+                <p>Copy-paste prompt examples for coding, writing, business, marketing, education, and creative work.</p>
+                <a class="btn primary" href="prompts/">Explore Prompts</a>
+            </div>
+            <div class="card">
+                <h2>Model Comparison</h2>
+                <p>Compare major AI models and choose the right assistant for your workflow.</p>
+                <a class="btn secondary" href="compare/">Compare Models</a>
+            </div>
+            <div class="card">
+                <h2>Agents & RAG</h2>
+                <p>Explore AI agent frameworks and retrieval-augmented generation resources for more advanced use cases.</p>
+                <a class="btn secondary" href="https://github.com/asdfgh12345123/awesome-ai-agents">AI Agents</a>
+                <a class="btn secondary" href="https://github.com/asdfgh12345123/awesome-rag">RAG Resources</a>
+            </div>
+        </div>
+
+        <div class="support">
+            <h2>Support this free project</h2>
+            <p>AI Tools Hub is free to use. Sponsorship helps keep the AI tools, prompts, agents, and RAG resources updated.</p>
+            <div class="actions">
+                <a class="btn primary" href="https://ko-fi.com/aitoolshub">Support on Ko-fi</a>
+                <a class="btn secondary" href="https://ifdian.net/a/aitoolshub">支持爱发电</a>
+            </div>
         </div>
     </div>
-    </body>
+
+    <footer>
+        <p>Built for anyone exploring AI tools. Optional support helps maintain the project.</p>
+    </footer>
+</body>
 </html>

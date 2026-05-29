@@ -3,39 +3,55 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Thank you to our supporters who help keep AI Tools Hub free and updated.">
-        <link rel="canonical" href="https://asdfgh12345123.github.io/awesome-ai-tools/supporters/">
-    <title>Supporters - AI Tools Hub</title>
+<title>Supporters - AI Tools Hub</title>
+<meta name="description" content="Supporters page for AI Tools Hub. See how public supporters are displayed and how to opt out if preferred.">
+<link rel="canonical" href="https://asdfgh12345123.github.io/awesome-ai-tools/supporters/">
 <style>
 :root { --primary: #6366f1; --bg: #0f172a; --card: #1e293b; --text: #e2e8f0; --muted: #94a3b8; --border: #334155; }
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: -apple-system, sans-serif; background: var(--bg); color: var(--text); }
-.container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
-h1 { font-size: 2.5rem; text-align: center; color: #818cf8; margin-bottom: 10px; }
-.subtitle { text-align: center; color: var(--muted); margin-bottom: 40px; }
-.supporters { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
-.supporter { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; text-align: center; }
-.avatar { width: 60px; height: 60px; border-radius: 50%; background: linear-gradient(135deg, #4f46e5, #7c3aed); margin: 0 auto 10px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; color: white; }
-.supporter h3 { color: #818cf8; font-size: 1rem; margin-bottom: 5px; }
-.tier { color: #10b981; font-size: 0.85rem; }
-.cta { background: linear-gradient(135deg, #4f46e5, #7c3aed); border-radius: 16px; padding: 40px; text-align: center; margin: 40px 0; }
-.cta h2 { color: white; margin-bottom: 10px; }
-.cta p { color: #e0e7ff; margin-bottom: 20px; }
-.cta a { background: white; color: #4f46e5; padding: 12px 24px; border-radius: 8px; display: inline-block; font-weight: 600; text-decoration: none; }
-.nav { text-align: center; margin: 30px 0; }
-.nav a { color: #818cf8; text-decoration: none; margin: 0 15px; }
+body { font-family: system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+a { color: #818cf8; text-decoration: none; }
+.container { max-width: 920px; margin: 0 auto; padding: 40px 20px; }
+h1 { color: #818cf8; text-align: center; margin-bottom: 10px; }
+.subtitle { text-align: center; color: var(--muted); margin-bottom: 28px; }
+.empty { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 24px; text-align: center; color: var(--muted); }
+.rules { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 24px; margin-top: 22px; }
+.rules h2 { color: #818cf8; margin-bottom: 8px; }
+.rules ul { margin-left: 18px; color: var(--muted); }
+.actions { text-align: center; margin-top: 22px; }
+.btn { display: inline-block; padding: 10px 18px; border-radius: 8px; font-weight: 600; text-decoration: none; color: white; margin: 6px; }
+.btn.ko { background: #22c55e; }
+.btn.af { background: #7c3aed; }
+.nav { text-align: center; margin: 24px 0; }
+.nav a { margin: 0 10px; }
+footer { text-align: center; padding: 28px; color: var(--muted); border-top: 1px solid var(--border); }
 </style>
 </head>
 <body>
 <div class="container">
-<h1>Our Supporters</h1>
-<p class="subtitle">Thank you for keeping AI Tools Hub free!</p>
-<div class="supporters">
-<div class="supporter"><div class="avatar">&#x1F4AC;</div><h3>Be the first!</h3><p class="tier">Supporter</p></div>
+    <div class="nav"><a href="../">Home</a><a href="../tools/">Tools</a><a href="../prompts/">Prompts</a><a href="../donate/">Support</a></div>
+    <h1>Our Supporters</h1>
+    <p class="subtitle">Thank you for helping keep AI Tools Hub free and updated.</p>
+
+    <div class="empty">No public supporters yet. Be the first to support the project.</div>
+
+    <div class="rules">
+        <h2>Supporter display rules</h2>
+        <ul>
+            <li>Public supporters may be shown with display name or initials only.</li>
+            <li>If you prefer not to appear on this page, mention it in your support message or contact the maintainer to be removed.</li>
+            <li>No supporter information is sold or used for paid promotion.</li>
+        </ul>
+    </div>
+
+    <div class="actions">
+        <a class="btn ko" href="https://ko-fi.com/aitoolshub" target="_blank" rel="noopener">Support on Ko-fi</a>
+        <a class="btn af" href="https://ifdian.net/a/aitoolshub" target="_blank" rel="noopener">支持爱发电</a>
+    </div>
 </div>
-<div class="cta"><h2>Support AI Tools Hub</h2><p>Help us keep 300+ resources free.</p>
-<a href="https://ko-fi.com/aitoolshub">Buy Me a Coffee</a></div>
-<div class="nav"><a href="../">Home</a><a href="../tools/">Tools</a><a href="../prompts/">Prompts</a></div>
-</div>
+
+<footer>
+    <p>Optional support helps maintain this project.</p>
+</footer>
 </body>
 </html>

@@ -1,18 +1,66 @@
 ﻿# Awesome AI Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of AI productivity tools for developers, writers, and creators. 100+ tools.
+> A curated list of AI productivity tools for developers, writers, and creators.
 
-**Star this repo** to discover the best AI tools!
+**AI Tools Hub** is a free, curated collection of AI tools, ChatGPT prompts, AI agents, RAG resources, and model comparisons. It is designed for students, developers, creators, and researchers who want a simple starting point for exploring AI tools.
+
+## Online
+
+- Site: https://asdfgh12345123.github.io/awesome-ai-tools/
+- Repository: https://github.com/asdfgh12345123/awesome-ai-tools
+
+## What this project includes
+
+- AI tools directory
+- ChatGPT prompt library
+- AI prompt generator
+- AI model comparison
+- AI guides and blog pages
+- Project health dashboard
+- Supporters and funding pages
+
+## Who it is for
+
+- Students exploring AI tools for study and research
+- Developers comparing coding and productivity tools
+- Creators looking for writing, image, video, and audio tools
+- Contributors who want to submit useful AI resources
+
+## Quick links
+
+- [AI Tools Directory](https://asdfgh12345123.github.io/awesome-ai-tools/tools/)
+- [ChatGPT Prompts](https://asdfgh12345123.github.io/awesome-ai-tools/prompts/)
+- [AI Prompt Generator](https://asdfgh12345123.github.io/awesome-ai-tools/prompt-generator/)
+- [Model Comparison](https://asdfgh12345123.github.io/awesome-ai-tools/compare/)
+- [Guides](https://asdfgh12345123.github.io/awesome-ai-tools/guides/best-ai-tools-for-coding.html)
+- [Supporters](https://asdfgh12345123.github.io/awesome-ai-tools/supporters/)
 
 [![GitHub Stars](https://img.shields.io/github/stars/asdfgh12345123/awesome-ai-tools?style=social)](https://github.com/asdfgh12345123/awesome-ai-tools)
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-red)](https://github.com/sponsors/asdfgh12345123)
 
-Support this project:
+## Support this project
+
+AI Tools Hub is free to use. Sponsorship helps maintain the directory, update links, and keep guides useful.
+
 - Ko-fi: https://ko-fi.com/aitoolshub
 - 爱发电: https://ifdian.net/a/aitoolshub
 
 AI Tools Hub 是我维护的免费 AI 工具与提示词资源项目，爱发电主页用于接收国内用户对项目维护的赞助支持。
 
+## How to contribute
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+You can help by:
+- Submitting a new AI tool
+- Submitting prompts
+- Reporting broken links
+- Improving documentation
+- Sharing better open-source AI resources
+
+## Data updates
+
+The project also includes structured data and local validation scripts. Content may be refreshed by scripts for tools, prompts, guides, sitemap, and dashboard stats.
 
 ---
 
@@ -175,14 +223,3 @@ AI Tools Hub 是我维护的免费 AI 工具与提示词资源项目，爱发电
 | [LocalAI](https://github.com/mudler/LocalAI) | OpenAI-compatible local API |
 | [vLLM](https://github.com/vllm-project/vllm) | Fast LLM serving |
 | [Text Generation WebUI](https://github.com/oobabooga/text-generation-webui) | Local LLM web UI |
-
----
-
-## Support This Project
-
-If you find this useful, please consider supporting:
-
-**[Buy Me a Coffee on Ko-fi](https://ko-fi.com/aitoolshub)**
-
-Every contribution helps keep these resources free and updated!
-

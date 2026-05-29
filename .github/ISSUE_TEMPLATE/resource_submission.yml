@@ -1,0 +1,29 @@
+﻿name: Resource submission
+description: Submit an AI agent framework, RAG resource, or related open-source project.
+labels: ["resource"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+    validations:
+      required: true
+  - type: input
+    id: type
+    attributes:
+      label: Type
+      placeholder: AI agent framework, RAG tool, vector DB, related resource
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+    validations:
+      required: true

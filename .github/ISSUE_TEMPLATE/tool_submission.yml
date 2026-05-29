@@ -1,0 +1,60 @@
+﻿name: Tool submission
+description: Submit a new AI tool to the directory.
+labels: ["tool"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+      placeholder: ExampleTool
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Category
+      placeholder: coding, writing, productivity
+    validations:
+      required: true
+  - type: dropdown
+    id: pricing
+    attributes:
+      label: Pricing
+      options:
+        - Free
+        - Freemium
+        - Paid
+        - Unknown
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      placeholder: What does this tool do?
+    validations:
+      required: true
+  - type: dropdown
+    id: open_source
+    attributes:
+      label: Open source?
+      options:
+        - "Yes"
+        - "No"
+        - Unknown
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      placeholder: Anything else useful?
+    validations:
+      required: false
