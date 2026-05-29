@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate products and affiliate disclosure pages."""
+"""Generate products and affiliate disclosure pages (Chinese)."""
 import os
 from datetime import datetime, timezone
 
@@ -9,12 +9,12 @@ AFDIAN_URL = 'https://www.ifdian.net/item/61f89c485b6311f1b8bd5254001e7c00'
 NOW = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
 
 NAV = '<nav><a href="' + BASE_URL + '/">Home</a> <a href="' + BASE_URL + '/tools/">Tools</a> <a href="' + BASE_URL + '/pricing/">Pricing</a> <a href="' + BASE_URL + '/products/">Products</a></nav>'
-SUPPORT_CTA = '<div class="cta"><p>Support the project: <a href="https://ko-fi.com/aitoolshub">Ko-fi</a> or <a href="https://ifdian.net/a/aitoolshub">Afdian</a></p></div>'
+SUPPORT_CTA = '<div class="cta"><p>支持本项目：<a href="https://ko-fi.com/aitoolshub">Ko-fi</a> 或 <a href="https://ifdian.net/a/aitoolshub">爱发电</a></p></div>'
 
 
 def page_wrap(title, description, canonical, body):
     return (
-        '<!DOCTYPE html><html lang="en"><head>'
+        '<!DOCTYPE html><html lang="zh-CN"><head>'
         '<meta charset="UTF-8">'
         '<meta name="viewport" content="width=device-width, initial-scale=1.0">'
         '<title>' + title + '</title>'
@@ -23,8 +23,9 @@ def page_wrap(title, description, canonical, body):
         '<meta property="og:title" content="' + title + '">'
         '<meta property="og:description" content="' + description + '">'
         '<meta property="og:type" content="website">'
+        '<meta property="og:locale" content="zh_CN">'
         '<style>'
-        'body{font-family:system-ui,sans-serif;background:#0f172a;color:#e2e8f0;padding:24px}'
+        'body{font-family:system-ui,sans-serif;background:#0f172a;color:#e2e8f0;padding:24px;line-height:1.8}'
         'a{color:#818cf8}'
         '.wrap{max-width:900px;margin:0 auto}'
         '.cta{background:#1e293b;border:1px solid #334155;border-radius:12px;padding:16px;margin-top:24px}'
@@ -41,6 +42,7 @@ def page_wrap(title, description, canonical, body):
         'h1{color:#818cf8}'
         'h2{margin-top:24px;color:#818cf8}'
         'ul{margin-left:18px}'
+        'li{margin:6px 0}'
         'nav{margin-bottom:24px}'
         'nav a{margin-right:12px}'
         '.disclaimer{color:#94a3b8;font-size:0.85em;margin-top:16px}'
@@ -52,36 +54,36 @@ def page_wrap(title, description, canonical, body):
 
 print('Generating products page...')
 products_body = (
-    '<h1>Digital Products</h1>'
-    '<p>Useful resources for AI practitioners. These are self-serve digital products related to AI tools, automation, and safety.</p>'
-    '<p class="disclaimer"><small>Products listed here are for informational purposes. No fake reviews, sales counts, or income claims.</small></p>'
+    '<h1>数字产品与资源包</h1>'
+    '<p>面向 AI 工具、Codex 自动化和项目整理的轻量资源包。</p>'
+    '<p class="disclaimer"><small>本页面仅作产品展示，不承诺收益、不提供账号、token 或自动赚钱脚本。</small></p>'
     '<div class="card featured">'
-    '  <h3>Codex Automation Starter Kit <span class="status free">Lite: Free</span> <span class="status available">Pro v1.3: Available on Afdian</span></h3>'
-    '  <p>A practical, self-contained starter kit for organizing local projects into maintainable, automated workflows using OpenAI Codex and GitHub Actions.</p>'
-    '  <p><strong>Lite version (free)</strong>: Preview the structure, checklists, and prompts on GitHub. Good for understanding the approach.</p>'
-    '  <p><strong>Pro version v1.3 (49 CNY)</strong>: Chinese language package with 61 Codex prompt templates, 42 common error fixes, 8 workflow YAML templates, 8 real-world examples, quality control checklist, source attribution, and more.</p>'
-    '  <p><a class="btn primary" href="' + AFDIAN_URL + '">在爱发电购买 Pro v1.3 中文版</a> <a class="btn secondary" href="codex-automation-starter-kit/">View product details</a></p>'
+    '  <h3>Codex 自动化入门工具包 <span class="status free">Lite 免费预览</span> <span class="status available">Pro v1.3 中文版</span></h3>'
+    '  <p>一套实用的工具包，帮助你用 Codex 和 GitHub Actions 把本地项目整理成可自动维护的工作流。</p>'
+    '  <p><strong>Lite 免费预览</strong>：在 GitHub 上查看基本结构、清单和提示词，适合了解思路。</p>'
+    '  <p><strong>Pro v1.3 中文版（49 元）</strong>：完整包，包含 61 条 Codex 提示词模板、42 个常见错误排查、8 个 GitHub Actions workflow 模板、8 个实战案例、安全检查清单、质量检查报告等。</p>'
+    '  <p><a class="btn primary" href="' + AFDIAN_URL + '">在爱发电购买 Pro v1.3 中文版</a> <a class="btn secondary" href="codex-automation-starter-kit/">查看产品详情</a></p>'
     '  <div class="notice">爱发电商品详情在未登录状态下可能显示不完整，如页面内容为空，请登录后查看。购买前也可以先阅读本站介绍和 Lite 免费预览。</div>'
-    '  <p class="disclaimer"><small>Ko-fi: Not listed yet.</small></p>'
+    '  <p class="disclaimer"><small>Ko-fi：暂未上架。</small></p>'
     '</div>'
     '<div class="card">'
-    '  <h3>AI Tools Pricing Sheet <span class="status coming">Coming soon</span></h3>'
-    '  <p>A structured spreadsheet tracking pricing, features, and free-tier limits for 50+ popular AI tools. Updated periodically.</p>'
-    '  <p>Format: Google Sheets / CSV</p>'
-    '  <p><a href="https://ko-fi.com/aitoolshub">Get notified on Ko-fi</a></p>'
+    '  <h3>AI Tools Pricing Sheet <span class="status coming">即将上线</span></h3>'
+    '  <p>结构化的表格，跟踪 50+ 常用 AI 工具的价格、功能和免费额度。</p>'
+    '  <p>格式：Google Sheets / CSV</p>'
+    '  <p><a href="https://ko-fi.com/aitoolshub">在 Ko-fi 获取通知</a></p>'
     '</div>'
     '<div class="card">'
-    '  <h3>AI Agent Safety Checklist <span class="status coming">Coming soon</span></h3>'
-    '  <p>A practical checklist for evaluating AI agent deployments, covering permissions, guardrails, logging, and rollback strategies.</p>'
-    '  <p>Format: PDF / Markdown</p>'
-    '  <p><a href="https://ko-fi.com/aitoolshub">Get notified on Ko-fi</a></p>'
+    '  <h3>AI Agent Safety Checklist <span class="status coming">即将上线</span></h3>'
+    '  <p>实用清单，用于评估 AI Agent 部署的权限、护栏、日志和回滚策略。</p>'
+    '  <p>格式：PDF / Markdown</p>'
+    '  <p><a href="https://ko-fi.com/aitoolshub">在 Ko-fi 获取通知</a></p>'
     '</div>'
-    '<p class="disclaimer"><small>Join the Ko-fi or Afdian page to be notified when new products launch. Last updated: ' + NOW + '.</small></p>'
+    '<p class="disclaimer"><small>关注 Ko-fi 或爱发电获取新产品通知。最后更新：' + NOW + '。</small></p>'
 )
 
 products_html = page_wrap(
-    'Digital Products - AI Tools Hub',
-    'Self-serve digital products for AI practitioners: pricing sheets, automation kits, and safety checklists.',
+    '数字产品 - AI Tools Hub',
+    '面向 AI 工具、Codex 自动化和项目整理的轻量资源包。',
     BASE_URL + '/products/',
     products_body
 )
@@ -93,31 +95,24 @@ print('  Generated products/index.html')
 
 print('Generating affiliate-disclosure page...')
 disclosure_body = (
-    '<h1>Affiliate Disclosure</h1>'
-    '<p>Some of the links on AI Tools Hub are affiliate links. This means that if you click on the link and make a purchase, we may receive a commission at no additional cost to you.</p>'
-    '<h2>What This Means</h2>'
+    '<h1>联盟链接声明</h1>'
+    '<p>AI Tools Hub 部分链接为联盟链接。如果你通过这些链接购买产品，我们可能会获得佣金，但不会增加你的费用。</p>'
+    '<h2>当前状态</h2>'
+    '<p>目前本项目没有活跃的联盟合作。所有工具链接直接指向官方网站。</p>'
+    '<h2>我们的承诺</h2>'
     '<ul>'
-    '<li>We only recommend tools and products that we have reviewed or that are widely recognized in the AI community.</li>'
-    '<li>Affiliate commissions help support the maintenance and growth of this project.</li>'
-    '<li>You will never pay more by using an affiliate link.</li>'
-    '<li>When an affiliate link is not available, we link directly to the official website.</li>'
+    '<li>不接受有偿推荐</li>'
+    '<li>不编造工具评分、用户评价或收入数据</li>'
+    '<li>不使用联盟链接推荐不会使用的工具</li>'
+    '<li>工具价格标签基于公开信息：Free、Freemium、Paid 或 Unknown</li>'
     '</ul>'
-    '<h2>Current Affiliate Status</h2>'
-    '<p>This project does not have active affiliate partnerships. All tool links point directly to official websites.</p>'
-    '<h2>Our Commitment</h2>'
-    '<ul>'
-    '<li>We do not accept payment for positive reviews.</li>'
-    '<li>We do not fabricate tool ratings, user reviews, or income claims.</li>'
-    '<li>We do not use affiliate links for tools we would not recommend.</li>'
-    '<li>Tool pricing is labeled as Free, Freemium, Paid, or Unknown based on publicly available information.</li>'
-    '</ul>'
-    '<h2>Contact</h2>'
-    '<p>If you have questions about our affiliate practices, please reach out via <a href="https://ko-fi.com/aitoolshub">Ko-fi</a> or open an issue on <a href="https://github.com/' + USERNAME + '/awesome-ai-tools">GitHub</a>.</p>'
+    '<h2>联系</h2>'
+    '<p>如有疑问，请通过 <a href="https://ko-fi.com/aitoolshub">Ko-fi</a> 或在 <a href="https://github.com/' + USERNAME + '/awesome-ai-tools">GitHub</a> 提交 Issue。</p>'
 )
 
 disclosure_html = page_wrap(
-    'Affiliate Disclosure - AI Tools Hub',
-    'How AI Tools Hub uses affiliate links and our commitment to transparency.',
+    '联盟链接声明 - AI Tools Hub',
+    'AI Tools Hub 的联盟链接使用方式和透明度承诺。',
     BASE_URL + '/affiliate-disclosure/',
     disclosure_body
 )
