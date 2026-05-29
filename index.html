@@ -9,6 +9,7 @@
     <meta property="og:description" content="Browse curated AI tools, prompts, agents, and RAG resources in one place. Free to use and updated weekly.">
     <meta property="og:type" content="website">
     <link rel="canonical" href="https://asdfgh12345123.github.io/awesome-ai-tools/">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"AI Tools Hub","url":"https://asdfgh12345123.github.io/awesome-ai-tools/","description":"Free curated AI tools, prompts, agents, and RAG resources."}</script>
     <style>
         :root { --primary: #6366f1; --accent: #10b981; --bg: #0f172a; --card: #1e293b; --text: #e2e8f0; --muted: #94a3b8; --border: #334155; }
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -18,7 +19,7 @@
         .hero h1 { font-size: 2.6rem; color: white; margin-bottom: 12px; }
         .hero p { color: #e0e7ff; max-width: 760px; margin: 0 auto; }
         .actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 24px; }
-        .btn { display: inline-block; padding: 12px 20px; border-radius: 8px; font-weight: 600; text-decoration: none; }
+        .btn { display: inline-block; padding: 12px 20px; border-radius: 8px; font-weight: 600; text-decoration: none; font-size: 0.95rem; }
         .btn.primary { background: white; color: #312e81; }
         .btn.secondary { background: rgba(255,255,255,0.12); color: white; border: 1px solid rgba(255,255,255,0.2); }
         .container { max-width: 1100px; margin: 0 auto; padding: 40px 20px; }
@@ -31,6 +32,8 @@
         .support h2 { color: white; margin-bottom: 10px; }
         .support p { color: #e0e7ff; margin-bottom: 18px; }
         .support .actions { margin-top: 0; }
+        .section-title { font-size: 1.5rem; color: #818cf8; margin-bottom: 8px; margin-top: 48px; }
+        .section-desc { color: var(--muted); margin-bottom: 20px; }
         footer { text-align: center; padding: 32px; color: var(--muted); border-top: 1px solid var(--border); }
     </style>
 </head>
@@ -40,8 +43,8 @@
         <p>A free, curated collection of AI tools, ChatGPT prompts, AI agents, RAG resources, and model comparisons — updated weekly for students, developers, and creators.</p>
         <div class="actions">
             <a class="btn primary" href="tools/">Browse AI Tools</a>
-            <a class="btn primary" href="prompts/">Explore ChatGPT Prompts</a>
-            <a class="btn secondary" href="compare/">Compare AI Models</a>
+            <a class="btn primary" href="pricing/">AI Pricing Watch</a>
+            <a class="btn secondary" href="compare/">Compare AI Tools</a>
         </div>
     </div>
 
@@ -58,19 +61,79 @@
                 <a class="btn primary" href="prompts/">Explore Prompts</a>
             </div>
             <div class="card">
-                <h2>Model Comparison</h2>
+                <h2>Compare AI Models</h2>
                 <p>Compare major AI models and choose the right assistant for your workflow.</p>
                 <a class="btn secondary" href="compare/">Compare Models</a>
             </div>
             <div class="card">
-                <h2>Agents & RAG</h2>
+                <h2>Agents &amp; RAG</h2>
                 <p>Explore AI agent frameworks and retrieval-augmented generation resources for more advanced use cases.</p>
                 <a class="btn secondary" href="https://github.com/asdfgh12345123/awesome-ai-agents">AI Agents</a>
                 <a class="btn secondary" href="https://github.com/asdfgh12345123/awesome-rag">RAG Resources</a>
             </div>
         </div>
 
-                <div class="grid">
+        <h2 class="section-title">AI Pricing Watch</h2>
+        <p class="section-desc">Track pricing labels for popular AI tools. Labels show Free, Freemium, Paid, or Unknown based on publicly available information.</p>
+        <div class="grid">
+            <div class="card">
+                <h2>Pricing Watch</h2>
+                <p>Compare pricing models for AI tools across categories. Always check official websites for current pricing.</p>
+                <a class="btn primary" href="pricing/">View Pricing</a>
+            </div>
+            <div class="card">
+                <h2>Cheapest AI Coding Tools</h2>
+                <p>Find the most affordable AI coding tools, including free and open-source options.</p>
+                <a class="btn secondary" href="guides/cheapest-ai-coding-tools.html">Read Guide</a>
+            </div>
+            <div class="card">
+                <h2>Free AI Tools</h2>
+                <p>AI tools with meaningful free tiers that do not require a credit card.</p>
+                <a class="btn secondary" href="guides/free-ai-tools-with-generous-limits.html">Read Guide</a>
+            </div>
+        </div>
+
+        <h2 class="section-title">AI Alternatives</h2>
+        <p class="section-desc">Looking for a different option? Browse alternatives grouped by category.</p>
+        <div class="grid">
+            <div class="card">
+                <h2>Alternatives Directory</h2>
+                <p>Find alternatives to popular AI tools by category: coding, writing, research, image generation, and more.</p>
+                <a class="btn primary" href="alternatives/">Browse Alternatives</a>
+            </div>
+            <div class="card">
+                <h2>Codex vs Claude Code vs Gemini CLI</h2>
+                <p>Compare three terminal-based AI coding tools side by side.</p>
+                <a class="btn secondary" href="guides/codex-vs-claude-code-vs-gemini-cli.html">Read Comparison</a>
+            </div>
+        </div>
+
+        <h2 class="section-title">Compare AI Tools</h2>
+        <p class="section-desc">Side-by-side comparison by category, pricing model, and open-source status.</p>
+        <div class="grid">
+            <div class="card">
+                <h2>Full Comparison</h2>
+                <p>Compare all AI tools in the directory at a glance with pricing, category, and open-source status.</p>
+                <a class="btn primary" href="compare/">Compare Tools</a>
+            </div>
+        </div>
+
+        <h2 class="section-title">Digital Products</h2>
+        <p class="section-desc">Self-serve digital resources for AI practitioners.</p>
+        <div class="grid">
+            <div class="card">
+                <h2>Products</h2>
+                <p>Pricing sheets, automation kits, and safety checklists. Coming soon.</p>
+                <a class="btn secondary" href="products/">View Products</a>
+            </div>
+            <div class="card">
+                <h2>Affiliate Disclosure</h2>
+                <p>How we use affiliate links and our commitment to transparency.</p>
+                <a class="btn secondary" href="affiliate-disclosure/">Read Disclosure</a>
+            </div>
+        </div>
+
+        <div class="grid">
             <div class="card">
                 <h2>Related Projects</h2>
                 <p>These companion repositories expand the main AI Tools Hub collections.</p>
@@ -79,7 +142,7 @@
             </div>
         </div>
 
-<div class="support">
+        <div class="support">
             <h2>Support this free project</h2>
             <p>AI Tools Hub is free to use. Sponsorship helps keep the AI tools, prompts, agents, and RAG resources updated.</p>
             <div class="actions">

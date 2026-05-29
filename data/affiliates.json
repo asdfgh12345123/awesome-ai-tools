@@ -1,0 +1,102 @@
+[
+  {
+    "tool_name": "Cursor",
+    "slug": "cursor",
+    "category": "coding",
+    "official_url": "https://www.cursor.sh/",
+    "affiliate_url": "",
+    "affiliate_status": "none",
+    "last_checked": "2026-05-29",
+    "source_note": ""
+  },
+  {
+    "tool_name": "GitHub Copilot",
+    "slug": "github-copilot",
+    "category": "coding",
+    "official_url": "https://github.com/features/copilot",
+    "affiliate_url": "",
+    "affiliate_status": "none",
+    "last_checked": "2026-05-29",
+    "source_note": ""
+  },
+  {
+    "tool_name": "Aider",
+    "slug": "aider",
+    "category": "coding",
+    "official_url": "https://github.com/paul-gauthier/aider",
+    "affiliate_url": "",
+    "affiliate_status": "none",
+    "last_checked": "2026-05-29",
+    "source_note": ""
+  },
+  {
+    "tool_name": "Continue",
+    "slug": "continue",
+    "category": "coding",
+    "official_url": "https://continue.dev/",
+    "affiliate_url": "",
+    "affiliate_status": "none",
+    "last_checked": "2026-05-29",
+    "source_note": ""
+  },
+  {
+    "tool_name": "Claude",
+    "slug": "claude",
+    "category": "writing",
+    "official_url": "https://claude.ai/",
+    "affiliate_url": "",
+    "affiliate_status": "none",
+    "last_checked": "2026-05-29",
+    "source_note": ""
+  },
+  {
+    "tool_name": "ChatGPT",
+    "slug": "chatgpt",
+    "category": "writing",
+    "official_url": "https://chat.openai.com/",
+    "affiliate_url": "",
+    "affiliate_status": "none",
+    "last_checked": "2026-05-29",
+    "source_note": ""
+  },
+  {
+    "tool_name": "Midjourney",
+    "slug": "midjourney",
+    "category": "image",
+    "official_url": "https://www.midjourney.com/",
+    "affiliate_url": "",
+    "affiliate_status": "none",
+    "last_checked": "2026-05-29",
+    "source_note": ""
+  },
+  {
+    "tool_name": "Stable Diffusion",
+    "slug": "stable-diffusion",
+    "category": "image",
+    "official_url": "https://stability.ai/",
+    "affiliate_url": "",
+    "affiliate_status": "none",
+    "last_checked": "2026-05-29",
+    "source_note": ""
+  },
+  {
+    "tool_name": "Perplexity",
+    "slug": "perplexity",
+    "category": "research",
+    "official_url": "https://www.perplexity.ai/",
+    "affiliate_url": "",
+    "affiliate_status": "none",
+    "last_checked": "2026-05-29",
+    "source_note": ""
+  },
+  {
+    "tool_name": "Ollama",
+    "slug": "ollama",
+    "category": "free",
+    "official_url": "https://ollama.ai/",
+    "affiliate_url": "",
+    "affiliate_status": "none",
+    "last_checked": "2026-05-29",
+    "source_note": ""
+  }
+]

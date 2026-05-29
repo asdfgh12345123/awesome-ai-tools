@@ -1,12 +1,20 @@
-﻿[
+[
   {
     "name": "Cursor",
     "url": "https://www.cursor.sh/",
     "category": "coding",
     "pricing": "Free/Pro",
     "description": "AI-first code editor",
-    "tags": ["coding", "editor", "ai"],
-    "use_cases": ["code completion", "code generation", "refactoring"],
+    "tags": [
+      "coding",
+      "editor",
+      "ai"
+    ],
+    "use_cases": [
+      "code completion",
+      "code generation",
+      "refactoring"
+    ],
     "open_source": false,
     "last_checked": "2026-05-29"
   },
@@ -16,8 +24,15 @@
     "category": "coding",
     "pricing": "Paid",
     "description": "AI pair programmer",
-    "tags": ["coding", "github", "ai"],
-    "use_cases": ["code completion", "code generation"],
+    "tags": [
+      "coding",
+      "github",
+      "ai"
+    ],
+    "use_cases": [
+      "code completion",
+      "code generation"
+    ],
     "open_source": false,
     "last_checked": "2026-05-29"
   },
@@ -27,8 +42,16 @@
     "category": "coding",
     "pricing": "Free",
     "description": "AI pair programming in terminal",
-    "tags": ["coding", "terminal", "open-source"],
-    "use_cases": ["code editing", "refactoring", "terminal coding"],
+    "tags": [
+      "coding",
+      "terminal",
+      "open-source"
+    ],
+    "use_cases": [
+      "code editing",
+      "refactoring",
+      "terminal coding"
+    ],
     "open_source": true,
     "last_checked": "2026-05-29"
   },
@@ -38,8 +61,15 @@
     "category": "coding",
     "pricing": "Free",
     "description": "Open-source AI code assistant",
-    "tags": ["coding", "open-source", "ide"],
-    "use_cases": ["code completion", "code chat"],
+    "tags": [
+      "coding",
+      "open-source",
+      "ide"
+    ],
+    "use_cases": [
+      "code completion",
+      "code chat"
+    ],
     "open_source": true,
     "last_checked": "2026-05-29"
   },
@@ -49,8 +79,16 @@
     "category": "writing",
     "pricing": "Free/Pro",
     "description": "Advanced AI assistant",
-    "tags": ["writing", "chat", "analysis"],
-    "use_cases": ["writing", "analysis", "coding"],
+    "tags": [
+      "writing",
+      "chat",
+      "analysis"
+    ],
+    "use_cases": [
+      "writing",
+      "analysis",
+      "coding"
+    ],
     "open_source": false,
     "last_checked": "2026-05-29"
   },
@@ -60,8 +98,16 @@
     "category": "writing",
     "pricing": "Free/Pro",
     "description": "OpenAI chatbot",
-    "tags": ["writing", "chat", "general"],
-    "use_cases": ["writing", "coding", "research"],
+    "tags": [
+      "writing",
+      "chat",
+      "general"
+    ],
+    "use_cases": [
+      "writing",
+      "coding",
+      "research"
+    ],
     "open_source": false,
     "last_checked": "2026-05-29"
   },
@@ -71,8 +117,15 @@
     "category": "image",
     "pricing": "Paid",
     "description": "AI image generation",
-    "tags": ["image", "art", "generation"],
-    "use_cases": ["image generation", "art creation"],
+    "tags": [
+      "image",
+      "art",
+      "generation"
+    ],
+    "use_cases": [
+      "image generation",
+      "art creation"
+    ],
     "open_source": false,
     "last_checked": "2026-05-29"
   },
@@ -82,8 +135,15 @@
     "category": "image",
     "pricing": "Free",
     "description": "Open-source image generation",
-    "tags": ["image", "open-source", "generation"],
-    "use_cases": ["image generation", "local AI"],
+    "tags": [
+      "image",
+      "open-source",
+      "generation"
+    ],
+    "use_cases": [
+      "image generation",
+      "local AI"
+    ],
     "open_source": true,
     "last_checked": "2026-05-29"
   },
@@ -93,8 +153,16 @@
     "category": "research",
     "pricing": "Free/Pro",
     "description": "AI search engine",
-    "tags": ["research", "search", "ai"],
-    "use_cases": ["research", "search", "information retrieval"],
+    "tags": [
+      "research",
+      "search",
+      "ai"
+    ],
+    "use_cases": [
+      "research",
+      "search",
+      "information retrieval"
+    ],
     "open_source": false,
     "last_checked": "2026-05-29"
   },
@@ -104,8 +172,16 @@
     "category": "free",
     "pricing": "Free",
     "description": "Run LLMs locally",
-    "tags": ["local", "llm", "open-source"],
-    "use_cases": ["local AI", "privacy", "offline"],
+    "tags": [
+      "local",
+      "llm",
+      "open-source"
+    ],
+    "use_cases": [
+      "local AI",
+      "privacy",
+      "offline"
+    ],
     "open_source": true,
     "last_checked": "2026-05-29"
   }

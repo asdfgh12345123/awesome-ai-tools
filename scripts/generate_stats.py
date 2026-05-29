@@ -1,6 +1,6 @@
 ﻿#!/usr/bin/env python3
 import json, os
-from datetime import datetime
+from datetime import datetime, timezone
 
 DATA_DIR = 'data'
 OUTPUT_JSON = os.path.join(DATA_DIR, 'site_stats.json')
@@ -31,7 +31,7 @@ def main():
         with open('sitemap.xml', 'r', encoding='utf-8') as f:
             sitemap_urls = f.read().count('<url>')
     stats = {
-        'generated_at': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+        'generated_at': datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
         'page_count': pages,
         'tool_count': len(tools),
         'prompt_count': len(prompts),
