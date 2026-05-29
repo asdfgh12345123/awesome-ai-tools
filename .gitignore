@@ -5,3 +5,8 @@
 .env.local
 .DS_Store
 Thumbs.db
+
+# Private product content (not committed to GitHub)
+private-products/
+dist/private/
+*.private.zip
