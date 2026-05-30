@@ -58,7 +58,7 @@ products_body = (
     '<p>面向 AI 工具、Codex 自动化和项目整理的轻量资源包。</p>'
     '<p class="disclaimer"><small>本页面仅作产品展示，不承诺收益、不提供账号、token 或自动赚钱脚本。</small></p>'
     '<div class="card featured">'
-    '  <h3>Codex 自动化入门工具包 <span class="status free">Lite 免费预览</span> <span class="status available">Pro v1.3 中文版</span></h3>'
+    '  <h3>Codex 自动化入门工具包 <span class="status free">Lite 免费预览</span> <span class="status available">Pro v1.3 中文版 · 已在爱发电上架</span></h3>'
     '  <p>一套实用的工具包，帮助你用 Codex 和 GitHub Actions 把本地项目整理成可自动维护的工作流。</p>'
     '  <p><strong>Lite 免费预览</strong>：在 GitHub 上查看基本结构、清单和提示词，适合了解思路。</p>'
     '  <p><strong>Pro v1.3 中文版（49 元）</strong>：完整包，包含 61 条 Codex 提示词模板、42 个常见错误排查、8 个 GitHub Actions workflow 模板、8 个实战案例、安全检查清单、质量检查报告等。</p>'

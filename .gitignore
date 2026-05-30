@@ -1,4 +1,4 @@
-﻿__pycache__/
+__pycache__/
 *.pyc
 .pytest_cache/
 .env
@@ -8,5 +8,5 @@ Thumbs.db
 
 # Private product content (not committed to GitHub)
 private-products/
-dist/private/
+dist/
 *.private.zip

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 import os
 from datetime import datetime
 
@@ -8,7 +8,8 @@ def main():
     print('Generating sitemap...')
     urls = []
     for root, dirs, files in os.walk('.'):
-        if '.git' in root.split(os.sep):
+        skip = set(root.split(os.sep))
+        if skip & {'.git', 'private-products', 'dist', 'node_modules'}:
             continue
         for f in files:
             if not f.endswith('.html'):
