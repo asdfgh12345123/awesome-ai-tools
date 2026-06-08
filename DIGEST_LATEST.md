@@ -1,6 +1,6 @@
 # Weekly Digest
 
-Generated: 2026-06-01 06:33 UTC
+Generated: 2026-06-08 06:23 UTC
 
 ## Current snapshot
 - Pages: 39
