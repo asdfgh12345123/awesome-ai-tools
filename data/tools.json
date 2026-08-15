@@ -74,6 +74,25 @@
     "last_checked": "2026-05-29"
   },
   {
+    "name": "Roblox GUI Maker",
+    "url": "https://robloxguimaker.dev/",
+    "category": "coding",
+    "pricing": "Free",
+    "description": "AI Roblox Studio GUI generator",
+    "tags": [
+      "coding",
+      "roblox",
+      "ui"
+    ],
+    "use_cases": [
+      "Roblox GUI prototyping",
+      "ScreenGui layout generation",
+      "Lua starter code"
+    ],
+    "open_source": false,
+    "last_checked": "2026-06-18"
+  },
+  {
     "name": "Claude",
     "url": "https://claude.ai/",
     "category": "writing",
