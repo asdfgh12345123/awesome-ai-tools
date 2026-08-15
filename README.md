@@ -139,6 +139,7 @@ The project also includes structured data and local validation scripts. Content 
 |------|-------|-------------|
 | [Sora](https://sora.com/) | Pro | OpenAI video generation |
 | [Runway](https://runwayml.com/) | Free/Pro | AI video generation |
+| [ImagineClip](https://imagineclip.com) | Freemium | AI video generation for avatar clips, stylized scenes, and social videos |
 | [Pika](https://pika.art/) | Free/Pro | AI video generation |
 | [Kling](https://klingai.com/) | Free/Pro | AI video generation |
 | [Luma Dream Machine](https://lumalabs.ai/dream-machine) | Free/Pro | AI video generation |
