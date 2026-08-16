@@ -146,6 +146,7 @@ The project also includes structured data and local validation scripts. Content 
 | [HeyGen](https://www.heygen.com/) | Free/Pro | AI avatar videos |
 | [Descript](https://www.descript.com/) | Free/Pro | AI video editing |
 | [Opus Clip](https://www.opus.pro/) | Free/Pro | AI video clipping |
+| [videos.social](https://videos.social/?utm_source=asdfgh12345123-awesome-ai-tools&utm_medium=directory&utm_campaign=listing-wave-d) | Free/$10 | Turn blogs, PDFs, and prompts into editable faceless videos |
 
 ## Audio & Music
 | Tool | Price | Description |
