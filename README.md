@@ -91,6 +91,7 @@ The project also includes structured data and local validation scripts. Content 
 | [Cursor](https://www.cursor.sh/) | Free/Pro | AI-first code editor |
 | [GitHub Copilot](https://github.com/features/copilot) | $10/mo | AI pair programmer |
 | [Aider](https://github.com/paul-gauthier/aider) | Free | AI pair programming in terminal |
+| [Agent QA](https://github.com/vostride/agent-qa) | Free core; model costs vary | Natural-language web and mobile testing through a CLI and MCP server |
 | [Continue](https://continue.dev/) | Free | Open-source AI code assistant |
 | [Cody](https://sourcegraph.com/cody) | Free/Pro | AI code assistant |
 | [Tabnine](https://www.tabnine.com/) | Free/Pro | AI code completion |
