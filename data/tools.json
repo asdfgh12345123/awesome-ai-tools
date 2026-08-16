@@ -184,5 +184,26 @@
     ],
     "open_source": true,
     "last_checked": "2026-05-29"
+  },
+  {
+    "name": "Agent QA",
+    "url": "https://github.com/vostride/agent-qa",
+    "category": "coding",
+    "pricing": "Free core; provider costs vary",
+    "description": "Natural-language web and mobile testing through a CLI and MCP server",
+    "tags": [
+      "testing",
+      "qa",
+      "cli",
+      "mcp",
+      "ai"
+    ],
+    "use_cases": [
+      "end-to-end testing",
+      "regression testing",
+      "test failure triage"
+    ],
+    "open_source": false,
+    "last_checked": "2026-08-16"
   }
 ]
