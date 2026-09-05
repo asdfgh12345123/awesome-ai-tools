@@ -189,8 +189,8 @@
     "name": "Agent QA",
     "url": "https://github.com/vostride/agent-qa",
     "category": "coding",
-    "pricing": "Free core; provider costs vary",
-    "description": "Natural-language web and mobile testing through a CLI and MCP server",
+    "pricing": "Free under FSL terms; provider costs vary",
+    "description": "Source-available natural-language web and mobile testing through a CLI, dashboard, and MCP server",
     "tags": [
       "testing",
       "qa",
@@ -204,6 +204,6 @@
       "test failure triage"
     ],
     "open_source": false,
-    "last_checked": "2026-08-16"
+    "last_checked": "2026-09-05"
   }
 ]
