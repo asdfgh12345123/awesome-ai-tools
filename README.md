@@ -114,6 +114,7 @@ The project also includes structured data and local validation scripts. Content 
 | [Writesonic](https://writesonic.com/) | Free/Pro | AI writing assistant |
 | [Rytr](https://rytr.me/) | Free/Pro | AI writing tool |
 | [Grammarly](https://www.grammarly.com/) | Free/Pro | AI writing enhancement |
+| [ResumeAI](https://withresumeai.com/) | Free | Free ATS checker and AI resume builder |
 | [QuillBot](https://quillbot.com/) | Free/Pro | AI paraphrasing |
 | [Wordtune](https://www.wordtune.com/) | Free/Pro | AI writing companion |
 | [Sudowrite](https://www.sudowrite.com/) | $10/mo | AI fiction writing |
