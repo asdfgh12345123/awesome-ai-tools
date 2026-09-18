@@ -117,6 +117,7 @@ The project also includes structured data and local validation scripts. Content 
 | [QuillBot](https://quillbot.com/) | Free/Pro | AI paraphrasing |
 | [Wordtune](https://www.wordtune.com/) | Free/Pro | AI writing companion |
 | [Sudowrite](https://www.sudowrite.com/) | $10/mo | AI fiction writing |
+| [Dom Frame](https://domframe.silentdirectivellc.com/?utm_source=awesome-ai-tools&utm_medium=resource-directory) | Free demo, then $6.99/wk | AI texting coach: paste a conversation, get a read on it and a reply you can send |
 
 ## Image Generation
 | Tool | Price | Description |
