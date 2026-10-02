@@ -184,5 +184,25 @@
     ],
     "open_source": true,
     "last_checked": "2026-05-29"
+  },
+  {
+    "name": "Clarity",
+    "url": "https://agent-tools.cloud/services/desktop-o99r0sf-tail935fba-ts-net-sub899",
+    "category": "research",
+    "pricing": "Usage-based (x402 USDC)",
+    "description": "Base x402 AI research gateway \u2014 pay-per-use research report ($2) and chat ($0.001)",
+    "tags": [
+      "research",
+      "api",
+      "x402",
+      "agents"
+    ],
+    "use_cases": [
+      "deep research report",
+      "agent chat",
+      "pay-per-use AI API"
+    ],
+    "open_source": false,
+    "last_checked": "2026-10-02"
   }
 ]
