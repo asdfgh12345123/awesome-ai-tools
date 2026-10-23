@@ -184,5 +184,183 @@
     ],
     "open_source": true,
     "last_checked": "2026-05-29"
+  },
+  {
+    "name": "PromptImage",
+    "url": "https://promptimage.cloud/",
+    "category": "image",
+    "pricing": "Free/Pro",
+    "description": "Free AI image gallery + multi-model image/video studio with prompt library",
+    "tags": [
+      "image",
+      "video",
+      "prompt-library",
+      "freemium"
+    ],
+    "use_cases": [
+      "AI image generation",
+      "prompt gallery",
+      "AI video"
+    ],
+    "open_source": false,
+    "last_checked": "2026-10-23"
+  },
+  {
+    "name": "TeslaWraps",
+    "url": "https://teslawraps.design/",
+    "category": "design",
+    "pricing": "Free/Pro",
+    "description": "Browser Tesla Paint Shop wrap designer; core editing free, optional AI",
+    "tags": [
+      "design",
+      "tesla",
+      "wrap",
+      "3d"
+    ],
+    "use_cases": [
+      "Tesla wrap design",
+      "3D preview",
+      "PNG export"
+    ],
+    "open_source": false,
+    "last_checked": "2026-10-23"
+  },
+  {
+    "name": "GrokVideo Studio",
+    "url": "https://grokvideogenerator.dev/",
+    "category": "video",
+    "pricing": "Free Trial",
+    "description": "Independent text/image-to-video generator; not affiliated with xAI/X",
+    "tags": [
+      "video",
+      "text-to-video",
+      "image-to-video"
+    ],
+    "use_cases": [
+      "text to video",
+      "image to video"
+    ],
+    "open_source": false,
+    "last_checked": "2026-10-23"
+  },
+  {
+    "name": "Alors On Danse Video Maker",
+    "url": "https://alorsondansevideo.com/",
+    "category": "video",
+    "pricing": "Paid",
+    "description": "Two portraits → 13s 480p studio dance clip; independent, paid, unofficial",
+    "tags": [
+      "video",
+      "photo-to-video",
+      "paid",
+      "independent"
+    ],
+    "use_cases": [
+      "photo to video",
+      "AI dance effects",
+      "short-form video"
+    ],
+    "open_source": false,
+    "last_checked": "2026-10-23"
+  },
+  {
+    "name": "Bad Times AI",
+    "url": "https://badtimesai.dev/",
+    "category": "video",
+    "pricing": "Paid",
+    "description": "Photo → AI dance effect video; independent, paid from $7.99, unofficial",
+    "tags": [
+      "video",
+      "photo-to-video",
+      "paid",
+      "independent"
+    ],
+    "use_cases": [
+      "photo to video",
+      "AI dance effects",
+      "short-form video"
+    ],
+    "open_source": false,
+    "last_checked": "2026-10-23"
+  },
+  {
+    "name": "I Found You in the Crowd AI",
+    "url": "https://ifoundyouinthecrowdai.com/",
+    "category": "video",
+    "pricing": "Paid",
+    "description": "Photos → meet-in-the-crowd video effect; independent, paid from $7.99, unofficial",
+    "tags": [
+      "video",
+      "photo-to-video",
+      "paid",
+      "independent"
+    ],
+    "use_cases": [
+      "photo to video",
+      "AI dance effects",
+      "short-form video"
+    ],
+    "open_source": false,
+    "last_checked": "2026-10-23"
+  },
+  {
+    "name": "KDA Firestarter AI Dance",
+    "url": "https://kdafirestarterai.dev/",
+    "category": "video",
+    "pricing": "Paid",
+    "description": "One photo → 13s widescreen solo AI dance; paid from $7.99; unofficial",
+    "tags": [
+      "video",
+      "photo-to-video",
+      "paid",
+      "independent"
+    ],
+    "use_cases": [
+      "photo to video",
+      "AI dance effects",
+      "short-form video"
+    ],
+    "open_source": false,
+    "last_checked": "2026-10-23"
+  },
+  {
+    "name": "A2O LITE NEON AI Dance",
+    "url": "https://a2oliteai.org/",
+    "category": "video",
+    "pricing": "Paid",
+    "description": "Two photos → 15s neon duo AI dance with soundtrack; paid from $7.99",
+    "tags": [
+      "video",
+      "photo-to-video",
+      "paid",
+      "independent"
+    ],
+    "use_cases": [
+      "photo to video",
+      "AI dance effects",
+      "short-form video"
+    ],
+    "open_source": false,
+    "last_checked": "2026-10-23"
+  },
+  {
+    "name": "dime dime baby ai",
+    "url": "https://dimedimebabyai.dev/",
+    "category": "video",
+    "pricing": "Paid",
+    "description": "One photo → short 9:16 AI dance with music; paid from $7.99",
+    "tags": [
+      "video",
+      "photo-to-video",
+      "paid",
+      "independent"
+    ],
+    "use_cases": [
+      "photo to video",
+      "AI dance effects",
+      "short-form video"
+    ],
+    "open_source": false,
+    "last_checked": "2026-10-23"
   }
 ]
