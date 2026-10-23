@@ -133,6 +133,7 @@ The project also includes structured data and local validation scripts. Content 
 | [Clipdrop](https://clipdrop.co/) | Free/Pro | AI image tools |
 | [ComfyUI](https://github.com/comfyanonymous/ComfyUI) | Free | Node-based SD interface |
 | [Automatic1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Free | SD web interface |
+| [PromptImage](https://promptimage.cloud/) | Free/Pro | Free AI image gallery + multi-model studio with prompt library |
 
 ## Video Generation
 | Tool | Price | Description |
@@ -146,6 +147,7 @@ The project also includes structured data and local validation scripts. Content 
 | [HeyGen](https://www.heygen.com/) | Free/Pro | AI avatar videos |
 | [Descript](https://www.descript.com/) | Free/Pro | AI video editing |
 | [Opus Clip](https://www.opus.pro/) | Free/Pro | AI video clipping |
+| [GrokVideo Studio](https://grokvideogenerator.dev/) | Free Trial | Independent text/image-to-video; not affiliated with xAI/X |
 
 ## Audio & Music
 | Tool | Price | Description |
@@ -191,6 +193,7 @@ The project also includes structured data and local validation scripts. Content 
 | [Galileo AI](https://www.usegalileo.ai/) | Free/Pro | AI UI generation |
 | [Looka](https://looka.com/) | Free/Pro | AI logo design |
 | [Relume](https://relume.io/) | Free/Pro | AI web design |
+| [TeslaWraps](https://teslawraps.design/) | Free/Pro | Browser Tesla wrap designer; core editing free, optional AI |
 
 ## Data & Analytics
 | Tool | Price | Description |

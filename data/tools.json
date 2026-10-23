@@ -184,5 +184,63 @@
     ],
     "open_source": true,
     "last_checked": "2026-05-29"
+  },
+  {
+    "name": "PromptImage",
+    "url": "https://promptimage.cloud/",
+    "category": "image",
+    "pricing": "Free/Pro",
+    "description": "Free AI image gallery + multi-model image/video studio with prompt library",
+    "tags": [
+      "image",
+      "video",
+      "prompt-library",
+      "freemium"
+    ],
+    "use_cases": [
+      "AI image generation",
+      "prompt gallery",
+      "AI video"
+    ],
+    "open_source": false,
+    "last_checked": "2026-10-23"
+  },
+  {
+    "name": "TeslaWraps",
+    "url": "https://teslawraps.design/",
+    "category": "design",
+    "pricing": "Free/Pro",
+    "description": "Browser Tesla Paint Shop wrap designer; core editing free, optional AI",
+    "tags": [
+      "design",
+      "tesla",
+      "wrap",
+      "3d"
+    ],
+    "use_cases": [
+      "Tesla wrap design",
+      "3D preview",
+      "PNG export"
+    ],
+    "open_source": false,
+    "last_checked": "2026-10-23"
+  },
+  {
+    "name": "GrokVideo Studio",
+    "url": "https://grokvideogenerator.dev/",
+    "category": "video",
+    "pricing": "Free Trial",
+    "description": "Independent text/image-to-video generator; not affiliated with xAI/X",
+    "tags": [
+      "video",
+      "text-to-video",
+      "image-to-video"
+    ],
+    "use_cases": [
+      "text to video",
+      "image to video"
+    ],
+    "open_source": false,
+    "last_checked": "2026-10-23"
   }
 ]
