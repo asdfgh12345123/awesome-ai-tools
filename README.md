@@ -151,6 +151,9 @@ The project also includes structured data and local validation scripts. Content 
 | [Alors On Danse Video Maker](https://alorsondansevideo.com/) | Paid | Two portraits → 13s 480p studio dance clip; independent, paid, unofficial |
 | [Bad Times AI](https://badtimesai.dev/) | Paid | Photo → AI dance effect video; independent, paid from $7.99, unofficial |
 | [I Found You in the Crowd AI](https://ifoundyouinthecrowdai.com/) | Paid | Photos → meet-in-the-crowd video effect; independent, paid from $7.99, unofficial |
+| [KDA Firestarter AI Dance](https://kdafirestarterai.dev/) | Paid | One photo → 13s widescreen solo AI dance; paid from $7.99; unofficial |
+| [A2O LITE NEON AI Dance](https://a2oliteai.org/) | Paid | Two photos → 15s neon duo AI dance with soundtrack; paid from $7.99 |
+| [dime dime baby ai](https://dimedimebabyai.dev/) | Paid | One photo → short 9:16 AI dance with music; paid from $7.99 |
 
 ## Audio & Music
 | Tool | Price | Description |

@@ -302,5 +302,65 @@
     ],
     "open_source": false,
     "last_checked": "2026-10-23"
+  },
+  {
+    "name": "KDA Firestarter AI Dance",
+    "url": "https://kdafirestarterai.dev/",
+    "category": "video",
+    "pricing": "Paid",
+    "description": "One photo → 13s widescreen solo AI dance; paid from $7.99; unofficial",
+    "tags": [
+      "video",
+      "photo-to-video",
+      "paid",
+      "independent"
+    ],
+    "use_cases": [
+      "photo to video",
+      "AI dance effects",
+      "short-form video"
+    ],
+    "open_source": false,
+    "last_checked": "2026-10-23"
+  },
+  {
+    "name": "A2O LITE NEON AI Dance",
+    "url": "https://a2oliteai.org/",
+    "category": "video",
+    "pricing": "Paid",
+    "description": "Two photos → 15s neon duo AI dance with soundtrack; paid from $7.99",
+    "tags": [
+      "video",
+      "photo-to-video",
+      "paid",
+      "independent"
+    ],
+    "use_cases": [
+      "photo to video",
+      "AI dance effects",
+      "short-form video"
+    ],
+    "open_source": false,
+    "last_checked": "2026-10-23"
+  },
+  {
+    "name": "dime dime baby ai",
+    "url": "https://dimedimebabyai.dev/",
+    "category": "video",
+    "pricing": "Paid",
+    "description": "One photo → short 9:16 AI dance with music; paid from $7.99",
+    "tags": [
+      "video",
+      "photo-to-video",
+      "paid",
+      "independent"
+    ],
+    "use_cases": [
+      "photo to video",
+      "AI dance effects",
+      "short-form video"
+    ],
+    "open_source": false,
+    "last_checked": "2026-10-23"
   }
 ]
