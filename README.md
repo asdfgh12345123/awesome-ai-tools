@@ -148,6 +148,9 @@ The project also includes structured data and local validation scripts. Content 
 | [Descript](https://www.descript.com/) | Free/Pro | AI video editing |
 | [Opus Clip](https://www.opus.pro/) | Free/Pro | AI video clipping |
 | [GrokVideo Studio](https://grokvideogenerator.dev/) | Free Trial | Independent text/image-to-video; not affiliated with xAI/X |
+| [Alors On Danse Video Maker](https://alorsondansevideo.com/) | Paid | Two portraits → 13s 480p studio dance clip; independent, paid, unofficial |
+| [Bad Times AI](https://badtimesai.dev/) | Paid | Photo → AI dance effect video; independent, paid from $7.99, unofficial |
+| [I Found You in the Crowd AI](https://ifoundyouinthecrowdai.com/) | Paid | Photos → meet-in-the-crowd video effect; independent, paid from $7.99, unofficial |
 
 ## Audio & Music
 | Tool | Price | Description |

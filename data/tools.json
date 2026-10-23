@@ -242,5 +242,65 @@
     ],
     "open_source": false,
     "last_checked": "2026-10-23"
+  },
+  {
+    "name": "Alors On Danse Video Maker",
+    "url": "https://alorsondansevideo.com/",
+    "category": "video",
+    "pricing": "Paid",
+    "description": "Two portraits → 13s 480p studio dance clip; independent, paid, unofficial",
+    "tags": [
+      "video",
+      "photo-to-video",
+      "paid",
+      "independent"
+    ],
+    "use_cases": [
+      "photo to video",
+      "AI dance effects",
+      "short-form video"
+    ],
+    "open_source": false,
+    "last_checked": "2026-10-23"
+  },
+  {
+    "name": "Bad Times AI",
+    "url": "https://badtimesai.dev/",
+    "category": "video",
+    "pricing": "Paid",
+    "description": "Photo → AI dance effect video; independent, paid from $7.99, unofficial",
+    "tags": [
+      "video",
+      "photo-to-video",
+      "paid",
+      "independent"
+    ],
+    "use_cases": [
+      "photo to video",
+      "AI dance effects",
+      "short-form video"
+    ],
+    "open_source": false,
+    "last_checked": "2026-10-23"
+  },
+  {
+    "name": "I Found You in the Crowd AI",
+    "url": "https://ifoundyouinthecrowdai.com/",
+    "category": "video",
+    "pricing": "Paid",
+    "description": "Photos → meet-in-the-crowd video effect; independent, paid from $7.99, unofficial",
+    "tags": [
+      "video",
+      "photo-to-video",
+      "paid",
+      "independent"
+    ],
+    "use_cases": [
+      "photo to video",
+      "AI dance effects",
+      "short-form video"
+    ],
+    "open_source": false,
+    "last_checked": "2026-10-23"
   }
 ]
