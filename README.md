@@ -163,6 +163,7 @@ The project also includes structured data and local validation scripts. Content 
 | Tool | Price | Description |
 |------|-------|-------------|
 | [Perplexity](https://www.perplexity.ai/) | Free/Pro | AI search engine |
+| [JobEmerge](https://www.jobemerge.work/) | Freemium | Job-fit checks, resume editing and translation, application tracking, and text mock interviews |
 | [Mem.ai](https://mem.ai/) | Free/Pro | Self-organizing workspace |
 | [Reclaim](https://reclaim.ai/) | Free/Pro | AI calendar management |
 | [Magical](https://www.getmagical.com/) | Free | AI text expansion |
