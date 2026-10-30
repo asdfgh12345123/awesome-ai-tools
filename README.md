@@ -119,6 +119,7 @@ The project also includes structured data and local validation scripts. Content 
 | [Sudowrite](https://www.sudowrite.com/) | $10/mo | AI fiction writing |
 
 ## Image Generation
+- [Vivify](https://vivify.video/realtime-face-swap) - Real-time AI face swap, try-on, and restyle on webcam video.
 | Tool | Price | Description |
 |------|-------|-------------|
 | [Midjourney](https://www.midjourney.com/) | $10/mo | AI image generation |
