@@ -181,6 +181,7 @@ The project also includes structured data and local validation scripts. Content 
 | [Connected Papers](https://www.connectedpapers.com/) | Free/Pro | Paper graph visualization |
 | [Litmaps](https://www.litmaps.com/) | Free/Pro | Literature mapping |
 | [Research Rabbit](https://www.researchrabbit.ai/) | Free | Paper discovery |
+| [Clarity](https://agent-tools.cloud/services/desktop-o99r0sf-tail935fba-ts-net-sub899) | Usage-based (x402 USDC) | Base x402 AI research gateway (report $2 / chat $0.001) |
 
 ## Design
 | Tool | Price | Description |
