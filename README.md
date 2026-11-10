@@ -181,6 +181,7 @@ The project also includes structured data and local validation scripts. Content 
 | [Connected Papers](https://www.connectedpapers.com/) | Free/Pro | Paper graph visualization |
 | [Litmaps](https://www.litmaps.com/) | Free/Pro | Literature mapping |
 | [Research Rabbit](https://www.researchrabbit.ai/) | Free | Paper discovery |
+| [DisconfirmAI](https://disconfirmai.com/en) | Free/Pro | AI investing research that seeks disconfirming evidence before you lock a thesis |
 
 ## Design
 | Tool | Price | Description |
