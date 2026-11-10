@@ -101,6 +101,7 @@ The project also includes structured data and local validation scripts. Content 
 | [Bolt.new](https://bolt.new/) | Free/Pro | AI full-stack builder |
 | [v0](https://v0.dev/) | Free/Pro | AI UI generator by Vercel |
 | [Lovable](https://lovable.dev/) | Free/Pro | AI app builder |
+| [Agent QA](https://github.com/vostride/agent-qa) | Free (FSL) | Natural-language web and mobile testing |
 
 ## Writing
 | Tool | Price | Description |
