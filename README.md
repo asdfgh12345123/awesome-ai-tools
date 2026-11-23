@@ -146,6 +146,8 @@ The project also includes structured data and local validation scripts. Content 
 | [HeyGen](https://www.heygen.com/) | Free/Pro | AI avatar videos |
 | [Descript](https://www.descript.com/) | Free/Pro | AI video editing |
 | [Opus Clip](https://www.opus.pro/) | Free/Pro | AI video clipping |
+| [Cyanvid](https://cyanvid.com/?utm_source=github-asdfgh-awesome-ai-tools&utm_medium=directory&utm_campaign=backlinks) | Free/Pro | AI video generator with credit quotes |
+| [Barz Studio](https://barzvideo.com/?utm_source=github-asdfgh-awesome-ai-tools&utm_medium=directory&utm_campaign=backlinks) | Free/Pro | Free browser rap lyric video maker |
 
 ## Audio & Music
 | Tool | Price | Description |
